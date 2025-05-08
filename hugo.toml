@@ -3,3 +3,7 @@ languageCode = 'en-us'
 title = 'Test'
 theme = 'hugo-bootstrap-theme'
 themesdir = 'node_modules/@filipecarneiro'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

@@ -1,0 +1,15 @@
+.row-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px; /* Adjust as needed */
+}
+
+.column-container {
+    transition: background-color 0.3s ease;
+}
+
+.column-container:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Example highlight color */
+    cursor: pointer;
+}

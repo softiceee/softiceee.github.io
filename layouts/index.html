@@ -1,16 +1,23 @@
 {{ define "main" }}
 
-<section class="section bd-masthead">
-  <div class="container-xxl">
-    <div class="col-md-8 mx-auto text-center my-5">
-      <img class="d-block mx-auto mb-3" src="{{ `images/logo.svg` | relURL }}" width="150" height="150" alt="Bootstrap">
-      <h1 class="display-4 fw-semibold mb-3">{{ .Site.Title }}</h1>
-      <p class="lead mb-4">{{ .Site.Params.Description }}</p>
-      <a class="btn btn-bd-primary btn-lg px-4 mb-2" href="https://github.com/filipecarneiro/hugo-bootstrap-theme" role="button">Get Started</a>
-      <p class="text-muted mb-0">Open-source MIT Licensed.</p>
+
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="hero-title">Welcome to Our Website</h1>
+        <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo urna magna,
+          vel faucibus tellus mattis vitae.</p>
+        <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+      </div>
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw3fHxoZXJvfGVufDB8MHx8fDE3MTIwNzMwNDh8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Hero Image" class="img-fluid hero-image">
+      </div>
     </div>
   </div>
 </section>
+
+
 
 <section class="section container my-3">
   {{ partial "tiles" . }}

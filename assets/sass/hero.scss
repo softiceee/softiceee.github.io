@@ -9,8 +9,13 @@
     margin-bottom: 1.5rem;
 }
 
-.hero-description {
+.hero-subtitle {
     font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.hero-description {
+    font-size: $landing_text_size; // 1.2rem
     margin-bottom: 2rem;
 }
 

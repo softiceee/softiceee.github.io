@@ -9,6 +9,48 @@ draft: false
   </div>
 
 
+<section class="container-section">
+        <!-- First Row: Image on right -->
+        <div class="row">
+            <div class="content-area">
+                <h2>Sprechender Titel</h2>
+                <p>Neugierig auf Daten und ihre Bedeutung für unsere Gesellschaft? Mehr über datengetriebene Systeme erfahren? Wolltest du schon immer mal... Dir brummt der Kopf? Dann komm in die Ringvorlesung Datenwelten!</p>
+            </div>
+            <div class="image-area">
+                <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
+            </div>
+        </div>
+        <!-- Second Row: Image on left -->
+        <div class="row reverse">
+            <div class="content-area">
+                <h2>Data Literacy für alle Studierenden</h2>
+                <p>Das Programm richtet sich an alle...
+        Das interdisziplinäre Team der Ringvorlesung Datenwelten vermittelt Studierenden aller Fächer Grundlagen der Digital- und Datenkompetenz sowie Vertrautheit im Umgang mit datengetriebenen Methoden. Um Digitalisierung und Datafizierung zu verstehen, werden technisch-praktisches Wissen und kritische Reflexion eng miteinander verknüpft und aus verschiedenen Perspektiven beleuchtet.
+        Begleitende Übung
+        Die Vorlesungen sind "hands-on" und</p>
+            </div>
+            <div class="image-area">
+                <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
+            </div>
+        </div>
+        <!-- Third Row: Image on right -->
+        <div class="row">
+            <div class="content-area">
+                <h2>Zwischen Code und Kontext</h2>
+                <p>Film Thumbnail. Dieser Text hat nur etwa 300 Zeichen. Nutzt ihn, um das Statement aus der Überschrift zu unterlegen und auf das WIE, das WAS und das WARUM genauer einzugehen. Das ist viel leichter gesagt, als getan. Darum heißt dieser Bereich ja auch Impact-Story-Schlaglichter. Ausführungen kommen später (weiter unten auf der Seite)</p>
+            </div>
+            <div class="image-area">
+                <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- 
+
+
+
 <section id="about" class="py-2 bg-light">
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 align-items-center">
@@ -52,7 +94,7 @@ draft: false
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <div class="content-section">

@@ -3,13 +3,11 @@ title: "Ringvorlesung Datenwelten"
 draft: false
 ---
 
-<!-- Title Section -->
-<section class="title-section">
-    <div class="title-content">
-        <h1 class="title-title">Ringvorlesung Datenwelten</h1>
-        <p class="title-subtitle">We offer the best solutions for your business needs. Explore our services and get in touch with us today.</p>
-    </div>
-</section>
+<div class="page-title-container">
+    <h1 class="page-title">Ringvorlesung Datenwelten</h1>
+    <p class="page-subtitle">Daten verstehen, Zukunft gestalten.</p>
+  </div>
+
 
 <section id="about" class="py-2 bg-light">
     <div class="container px-4 px-lg-5">

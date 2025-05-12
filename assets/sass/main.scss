@@ -1,3 +1,11 @@
+/* Reset some basic elements */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
 // Custom.scss
 // Option B: Include parts of Bootstrap
 // https://getbootstrap.com/docs/5.2/customize/sass/
@@ -65,7 +73,10 @@
 @import "accordion";
 @import "divider";
 @import "columns";
-@import "title";
 @import "variable-overrides.scss";
 @import "goals";
 @import "icon_block";
+
+
+
+@import "_typography";

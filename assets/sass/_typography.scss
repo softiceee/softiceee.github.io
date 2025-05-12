@@ -1,0 +1,33 @@
+/* Title container */
+.page-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  /* Main title */
+  > .page-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 0.5em;
+    color: var(--title-black);
+    font-weight: 700;
+  }
+
+  /* Subtitle */
+  > .page-subtitle {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    max-width: 800px;
+    color: var(--title-accent);
+    font-weight: normal;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page-title-container {
+    padding: 1.5rem 1rem;
+  }
+}

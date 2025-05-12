@@ -2,6 +2,12 @@
 
 Link: https://softiceee.github.io/ddlit-prototype/
 
+## Notes
+
+Team member photos webp (or jpg as fallback) with 600x600 resolution
+
+
+
 ## Colors
 
 - c2c747

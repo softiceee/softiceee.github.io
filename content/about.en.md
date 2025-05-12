@@ -2,36 +2,53 @@
 title: "About"
 draft: false
 ---
+<div class="page-title-container">
+    <h1 class="page-title">Unser Team</h1>
+    <p class="page-subtitle">Alles ist gut, solange du wild bist.</p>
+  </div>
 
-
-<div class="container py-5">
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <div class="flip-card mx-auto">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="Team Member" class="profile-img">
-                        <h3>Jane Doe</h3>
-                        <p>Web Developer</p>
-                        <p class="mt-3">
-                            <span class="waving-hand">👋</span> Hover to know more!
-                        </p>
-                    </div>
-                    <div class="flip-card-back">
-                        <h3>About Me</h3>
-                        <p>I'm passionate about creating beautiful and functional websites. With 5 years of experience,
-                            I specialize in front-end development and UX design.</p>
-                        <div class="social-icons mt-4">
-                            <a href="#">test<i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section class="team-container">
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="card-image">
+          <img src="https://placehold.co/400.webp?text=600%20x%20600\nwebp" alt="Jane Doe">
         </div>
+        <div class="card-content">
+          <h2 class="member-name">Jane Doe</h2>
+          <h3 class="member-role">Lead Developer</h3>
+          <p class="member-description">
+            Jane leads our development team with over 10 years of experience in web technologies. She specializes in
+            frontend architecture and performance optimization.
+          </p>
+          <a href="mailto:jane@example.com" class="member-email">
+            jane@example.com
+          </a>
+        </div>
+      </div>
+      <div class="team-card">
+        <div class="card-image">
+          <img src="https://placehold.co/400.webp?text=600%20x%20600\nwebp" alt="John Smith">
+        </div>
+        <div class="card-content">
+          <h2 class="member-name">John Smith</h2>
+          <h3 class="member-role">UX Designer</h3>
+          <p class="member-description">
+            John brings creative solutions to our design challenges with his background in user experience and
+            interaction design. He focuses on creating intuitive interfaces.
+          </p>
+          <a href="mailto:john@example.com" class="member-email">
+            john@example.com
+          </a>
+        </div>
+      </div>
     </div>
-</div>
+  </section>
+
+
+
+
+
+
 
 # Bootstrap Components
 

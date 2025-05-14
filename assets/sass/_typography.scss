@@ -24,8 +24,9 @@
       transform: translateX(-50%);
       width: 120px;
       height: 4px;
-      background-color: var(--title-black);
+      background-color: $primary;
       border-radius: 2px;
+      
     }
 
   }

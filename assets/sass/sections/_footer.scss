@@ -1,64 +1,58 @@
-/* Basic styling for the footer */
 footer {
-  padding: 20px 0; /* Add some padding above and below */
-  margin-top: 40px; /* Add some space above the footer */
+  padding: 20px 0;
+  margin-top: 40px;
   background-color: $primary;
 }
 
 .footer-container {
-  // max-width: $max-width; /* Optional: Limit the width of the content */
-  margin: 0 auto; /* Center the container */
-  display: flex; /* Use flexbox for desktop layout */
-  justify-content: space-between; /* Space out the text and nav */
-  align-items: center; /* Vertically align items */
-  padding: 0 15px; /* Add some padding on the sides */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
   flex-direction: row;
 }
 
 .footer-text {
-  margin: 0; /* Remove default paragraph margin */
-  color: var(-title-accent); /* Mute the text color */
-  flex-shrink: 0; /* Prevent text from shrinking */
+  margin: 0;
+  color: var(--title-accent);
+  flex-shrink: 0;
 }
 
 .footer-nav {
-  list-style: none; /* Remove bullet points */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
-  display: flex; /* Use flexbox for horizontal nav items on desktop */
+  list-style: none;
+  padding: 0; 
+  margin: 0; 
+  display: flex;
+
+  & li {
+    margin-left: 20px;
+  }
+  & li:first-child {
+    margin-left: 0; 
+  }
+  & a {
+    text-decoration: none;
+    color: var(--title-accent);
+  }
 }
 
-.footer-nav li {
-  margin-left: 20px; /* Add space between nav items */
-}
-
-.footer-nav li:first-child {
-    margin-left: 0; /* No left margin for the first item */
-}
-
-
-.footer-nav a {
-  text-decoration: none; /* Remove underline from links */
-  color: #666; /* Mute the link color */
-}
-
-/* Responsive adjustments for mobile (desktop-first) */
-@media (max-width: $breakpoint-mobile) { /* Adjust breakpoint as needed */
+@media (max-width: $breakpoint-mobile) {
   .footer-container {
-    flex-direction: column; /* Stack items vertically on mobile */
-    text-align: center; /* Center-align text and list */
+    flex-direction: column; 
+    text-align: center; 
   }
 
   .footer-text {
-    margin-bottom: 15px; /* Add space below the text on mobile */
+    margin-bottom: 15px; 
   }
 
   .footer-nav {
-    flex-direction: column; /* Stack nav items vertically on mobile */
-    align-items: center; /* Center-align nav items */
-  }
+    flex-direction: column; 
+    align-items: center;
 
-  .footer-nav li {
-    margin: 5px 0; /* Add space between stacked nav items */
+    & li {
+      margin: 5px 0; 
+    }
   }
 }

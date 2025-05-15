@@ -1,4 +1,5 @@
 .navigation-card {
+    
     color: var(--title-black);
     transition: all var(--transition-speed) ease;
     border: none;
@@ -12,6 +13,10 @@
     padding: var(--spacing-desktop);
     flex: 1;
 
+    // width: 250px;
+    // height: 250px;
+    
+
     &:hover {
         transform: translateY(-10px);
         box-shadow: 8px 8px 20px #d1d1d1, -8px -8px 20px #ffffff;
@@ -22,5 +27,9 @@
         margin-bottom: 1rem;
     }
 }
+
+// a.navigation-card {
+//     width: 200px;
+// }
 
 // other :hover example: https://uiverse.io/eslam-hany/nasty-zebra-54

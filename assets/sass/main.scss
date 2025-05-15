@@ -2,7 +2,7 @@
 @import "_reset";
 
 // Bootstrap scss
-@import "_bootstrap.scss";
+// @import "_bootstrap.scss";
 
 // Base scss
 @import "_variables";
@@ -15,6 +15,9 @@
 // Sections scss
 @import "sections/_team";
 @import "sections/_navigation-cards";
-@import "sections/_navbar";
+// @import "sections/_navbar";
 @import "sections/_footer";
 @import "sections/_accordion";
+
+
+@import "_navbar";

@@ -28,6 +28,9 @@ section {
     margin-bottom: var(--spacing-tablet);
     gap: var(--spacing-tablet);
     align-items: center;
+    // margin-right: 0;
+    // margin-left: 0;
+    // margin-top: 0;
 
     &.reverse {
         flex-direction: row-reverse;

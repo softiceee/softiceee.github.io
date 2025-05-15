@@ -99,7 +99,7 @@ jobs:
 
 
 # From the example theme site
-name: Build and Deploy to gh-pages branch
+# name: Build and Deploy to gh-pages branch
 
 # on:
 #   push:

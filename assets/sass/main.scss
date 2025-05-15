@@ -9,9 +9,7 @@
 @import "_layouts";
 @import "_typography";
 
-// SORTIEREN
-@import "accordion";
-@import "goals";
+// SORTIEREN;
 @import "icon_block";
 
 // Sections scss
@@ -19,3 +17,4 @@
 @import "sections/_navigation-cards";
 @import "sections/_navbar";
 @import "sections/_footer";
+@import "sections/_accordion";

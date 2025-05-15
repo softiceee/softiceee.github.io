@@ -16,11 +16,7 @@
       </div>
     </section>
 
-
-
-
-
-<section>
+  <section>
     <div class="section-title">
         <h2>Unsere Projekte</h2>
         <p>Unsere Arbeit zur Förderung von Digital and Data Literacy.</p>
@@ -54,13 +50,8 @@
         <h4>GKI-Community</h4>
         <p>Lorem ipsum</p>
       </a>
-      </div>
     </div>
   </section>
-
-
-
-
 
 <section>
     <div class="section-title">
@@ -70,27 +61,27 @@
     <div class="row reverse">
         <div class="content-area">
             <h3>Speaking Title</h3>
-            <div class="accordion" id="myFramelessAccordion">
-              <div class="accordion-item">
-                <h4 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Studierenden das nötige Wissen vermitteln
-                  </button>
-                </h4>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#myFramelessAccordion">
-                  <div class="accordion-body">Fließtext</div>
-                  </div>
+            <div class="accordion">
+              <details>
+                <summary>Section 1: HTML Basics</summary>
+                <div class="accordion-content">
+                  <p>HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
                 </div>
-              <div class="accordion-item">
-                <h4 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Data Literacy in der Lehre fördern
-                  </button>
-                </h4>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#myFramelessAccordion">
-                  <div class="accordion-body">Fließtext</div>
+              </details>
+              
+              <details>
+                <summary>Section 2: CSS Fundamentals</summary>
+                <div class="accordion-content">
+                  <p>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.</p>
                 </div>
-              </div>
+              </details>
+              
+              <details>
+                <summary>Section 3: Responsive Design</summary>
+                <div class="accordion-content">
+                  <p>Responsive web design makes web pages render well on a variety of devices and window or screen sizes. It's an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.</p>
+                </div>
+              </details>
             </div>
           </div>
         <div class="image-area">
@@ -100,6 +91,8 @@
 </section>
 
 
+
+</div>
   </main>
 
 {{ end }}

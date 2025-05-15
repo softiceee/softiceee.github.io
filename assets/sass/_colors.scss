@@ -1,5 +1,10 @@
 // Default variable overrides
 
+:root {
+  --title-black: #333;
+  --title-accent: #666;
+}
+
 // scss-docs-start theme-color-variables
 $primary:       #0d6efd;
 $secondary:     #6c757d;
@@ -15,20 +20,9 @@ $dark:          #212529;
 $body-bg: #fff;
 $body-color: #212529;
 
-
-
-
 $primary: #c2c747;
 $secondary: #e68935;
 $accent: #c2c747;
 
 $background_white: #f8f9fa;
 
-
-
-$landing_text_size: 1.2rem;
-
-:root {
-  --title-black: #333;
-  --title-accent: #666;
-}

@@ -1,0 +1,44 @@
+/* Reset some basic elements */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+// reset css
+
+//     /* Reset and baseline styles */
+// *, *::before, *::after {
+//   box-sizing: border-box;
+//   margin: 0;
+//   padding: 0;
+// }
+
+// html {
+//   font-size: 16px;
+//   -webkit-text-size-adjust: 100%;
+// }
+
+// body {
+//   min-height: 100vh;
+//   text-rendering: optimizeSpeed;
+//   line-height: 1.5;
+// }
+
+// img, picture, svg {
+//   max-width: 100%;
+//   display: block;
+// }
+
+// ul, ol {
+//   list-style: none;
+// }
+
+// a {
+//   text-decoration: none;
+//   color: inherit;
+// }
+
+// input, button, textarea, select {
+//   font: inherit;
+// }

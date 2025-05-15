@@ -97,13 +97,6 @@ draft: false
 </section> -->
 
 
-<div class="content-section">
-    <div class="divider">
-        <div class="divider-text">
-            <span>Inhalte</span>
-        </div>
-    </div>
-</div>
 
  <div class="py-2">
     <div class="container">

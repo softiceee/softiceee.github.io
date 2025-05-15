@@ -1,13 +1,15 @@
+[de]
+  languageName = "Deutsch"
+  languageCode = "de-DE"
+  weight = 10
+  [de.params]
+    languageISO = "DE"
+
 [en]
   languageName = "English"
   languageCode = "en-US"
-  weight = 10
+  weight = 20
   [en.params]
     languageISO = "EN"
 
-[pt]
-  languageName = "Portuguese"
-  languageCode = "pt-PT"
-  weight = 20
-  [pt.params]
-    languageISO = "PT"
+

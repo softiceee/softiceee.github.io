@@ -6,7 +6,9 @@ Link: https://softiceee.github.io/ddlit-prototype/
 
 Team member photos webp (or jpg as fallback) with 600x600 resolution
 
-
+- icons: https://microsoft.github.io/vscode-codicons/dist/codicon.html
+- simple.css: https://github.com/kevquirk/simple.css/blob/main/simple.css
+- modern-normalize.css: https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css
 
 ## Colors
 
@@ -94,3 +96,14 @@ You can make changes to the website in the `content` directory. This is where al
 
 > Edit the file in VS Code. You can open the file by clicking on it in the Explorer view (left sidebar). After editing, save the file by pressing `cmd + s` (macOS) or `ctrl + s` (Windows/Linux). The local webserver will automatically reload the page in your browser.
 
+
+
+
+
+
+
+# Nochmal anschauen
+- CODE_OF_CONDUCT.md
+- LICENSE
+- themes/ddlitlab/theme.toml
+- Compare themes/ddlitlab/.github/workflows/gh-pages.yml with .github/workflows/hugo.yaml

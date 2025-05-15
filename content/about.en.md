@@ -34,3 +34,73 @@ draft: false
       </div>
     </div>
   </section>
+
+
+<section class="timeline">
+  <div class="section-title">
+    <h2>Timeline</h2>
+    <p>A journey through time.</p>
+  </div>
+  <ol>
+    <li class="container left">
+      <div class="event-meta">
+        <time class="date" datetime="2024-12-15">15 Dec</time>
+        <i class="icon fa fa-home" aria-hidden="true"></i>
+      </div>
+      <article class="content">
+        <h3>Key Milestone One</h3>
+        <p>Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.</p>
+      </article>
+    </li>
+    <li class="container right">
+      <div class="event-meta">
+        <time class="date" datetime="2024-10-22">22 Oct</time>
+        <i class="icon fa fa-gift" aria-hidden="true"></i>
+      </div>
+      <article class="content">
+        <h3>Key Milestone Two</h3>
+        <p>Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.</p>
+      </article>
+    </li>
+    <li class="container left">
+      <div class="event-meta">
+        <time class="date" datetime="2024-07-10">10 Jul</time>
+        <i class="icon fa fa-user" aria-hidden="true"></i>
+      </div>
+      <article class="content">
+        <h3>Key Milestone Three</h3>
+        <p>Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.</p>
+      </article>
+    </li>
+    <li class="container right">
+      <div class="event-meta">
+        <time class="date" datetime="2024-05-18">18 May</time>
+        <i class="icon fa fa-running" aria-hidden="true"></i>
+      </div>
+      <article class="content">
+        <h3>Key Milestone Four</h3>
+        <p>Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.</p>
+      </article>
+    </li>
+    <li class="container left">
+      <div class="event-meta">
+        <time class="date" datetime="2024-02-10">10 Feb</time>
+        <i class="icon fa fa-cog" aria-hidden="true"></i>
+      </div>
+      <article class="content">
+        <h3>Key Milestone Five</h3>
+        <p>Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.</p>
+      </article>
+    </li>
+    <li class="container right">
+      <div class="event-meta">
+        <time class="date" datetime="2024-01-01">01 Jan</time>
+        <i class="icon fa fa-certificate" aria-hidden="true"></i>
+      </div>
+      <article class="content">
+        <h3>Key Milestone Six</h3>
+        <p>Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.</p>
+      </article>
+    </li>
+  </ol>
+</section>

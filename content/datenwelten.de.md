@@ -3,63 +3,50 @@ title: "Ringvorlesung Datenwelten"
 draft: false
 ---
 
-<section>
-    <div class="section-title">
-        <h2>Ringvorlesung Datenwelten</h2>
-        <p>Daten verstehen, Zukunft gestalten.</p>
-    </div>
-    <div class="row">
-        <div class="content-area">
-            <h3>Sprechender Titel</h3>
-            <p>Neugierig auf Daten und ihre Bedeutung für unsere Gesellschaft? Mehr über datengetriebene Systeme erfahren? Wolltest du schon immer mal... Dir brummt der Kopf? Dann komm in die Ringvorlesung Datenwelten!</p>
+<div class="page-title-container">
+    <h1 class="page-title">Ringvorlesung Datenwelten Deutsch</h1>
+    <p class="page-subtitle">Daten verstehen, Zukunft gestalten.</p>
+  </div>
+
+
+<section class="container-section">
+        <!-- First Row: Image on right -->
+        <div class="row">
+            <div class="content-area">
+                <h2>Sprechender Titel</h2>
+                <p>Neugierig auf Daten und ihre Bedeutung für unsere Gesellschaft? Mehr über datengetriebene Systeme erfahren? Wolltest du schon immer mal... Dir brummt der Kopf? Dann komm in die Ringvorlesung Datenwelten!</p>
+            </div>
+            <div class="image-area">
+                <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
+            </div>
         </div>
-        <div class="image-area">
-            <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
+        <!-- Second Row: Image on left -->
+        <div class="row reverse">
+            <div class="content-area">
+                <h2>Data Literacy für alle Studierenden</h2>
+                <p>Das Programm richtet sich an Studierende aller Fächer und vermittelt Grundlagen der Digital- und Datenkompetenz sowie Vertrautheit im Umgang mit datengetriebenen Methoden. Um Digitalisierung und Datafizierung zu verstehen, werden technisch-praktisches Wissen und kritische Reflexion eng miteinander verknüpft und aus verschiedenen Perspektiven beleuchtet.
+                </p>
+            </div>
+            <div class="image-area">
+                <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
+            </div>
         </div>
-    </div>
-    <div class="row reverse">
-        <div class="content-area">
-            <h3>Data Literacy für alle!</h3>
-            <p>Das Programm richtet sich an Studierende aller Fächer und vermittelt Grundlagen der Digital- und Datenkompetenz sowie Vertrautheit im Umgang mit datengetriebenen Methoden. Um Digitalisierung und Datafizierung zu verstehen, werden technisch-praktisches Wissen und kritische Reflexion eng miteinander verknüpft und aus verschiedenen Perspektiven beleuchtet.</p>
+        <!-- Third Row: Image on right -->
+        <div class="row">
+            <div class="content-area">
+                <h2>Zwischen Code und Kontext</h2>
+                <p>Film Thumbnail. Dieser Text hat nur etwa 300 Zeichen. Nutzt ihn, um das Statement aus der Überschrift zu unterlegen und auf das WIE, das WAS und das WARUM genauer einzugehen. Das ist viel leichter gesagt, als getan. Darum heißt dieser Bereich ja auch Impact-Story-Schlaglichter. Ausführungen kommen später (weiter unten auf der Seite)</p>
+            </div>
+            <div class="image-area">
+                <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
+            </div>
         </div>
-        <div class="image-area">
-            <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
-        </div>
-    </div>
-    <div class="row">
-        <div class="content-area">
-            <h3>Zwischen Code und Kontext</h3>
-            <p>Film Thumbnail. Dieser Text hat nur etwa 300 Zeichen. Nutzt ihn, um das Statement aus der Überschrift zu unterlegen und auf das WIE, das WAS und das WARUM genauer einzugehen. Das ist viel leichter gesagt, als getan. Darum heißt dieser Bereich ja auch Impact-Story-Schlaglichter. Ausführungen kommen später (weiter unten auf der Seite)</p>
-        </div>
-        <div class="image-area">
-            <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
-        </div>
-    </div>
     </section>
 
 
-<section>
-    <div class="section-title">
-        <h2>Section Title</h2>
-        <p>Section Title Description.</p>
-    </div>
-    <div class="row reverse">
-        <div class="content-area">
-            <h3>Speaking Title</h3>
-            <ul>
-                <li>List elements</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-            </ul>
-        </div>
-        <div class="image-area">
-            <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
-        </div>
-    </div>
-</section>
 
 
-<!-- 
+
  <div class="py-2">
     <div class="container">
         <div class="row align-items-center mb-2">
@@ -178,28 +165,30 @@ draft: false
         </div>
     </div>
 </div>
+
+
 <div class="row align-items-center mb-5">
-    <div class="col-md-6 align-self-center">
-        <div class="embed-responsive embed-responsive-16by9">
-                <iframe src='https://lecture2go.uni-hamburg.de/o/iframe/?obj=70078&series=true'
-                    title='Datenwelten I: Einführung in Data Science'
-                    frameborder='0'
-                    allowfullscreen
-                    class="embed-responsive-item">
-                </iframe>
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe
-                src='https://lecture2go.uni-hamburg.de/o/iframe/?obj=71422&series=true'
-                title='Datenwelten II: Reflexion der Datenwelten'
-                frameborder='0'
-                allowfullscreen
-                class="embed-responsive-item">
-            </iframe>
-        </div>
-    </div> -->
+            <div class="col-md-6 align-self-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                     <iframe src='https://lecture2go.uni-hamburg.de/o/iframe/?obj=70078&series=true'
+                            title='Datenwelten I: Einführung in Data Science'
+                            frameborder='0'
+                            allowfullscreen
+                            class="embed-responsive-item">
+                     </iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe
+                        src='https://lecture2go.uni-hamburg.de/o/iframe/?obj=71422&series=true'
+                        title='Datenwelten II: Reflexion der Datenwelten'
+                        frameborder='0'
+                        allowfullscreen
+                        class="embed-responsive-item">
+                    </iframe>
+                </div>
+            </div>
 
 
 

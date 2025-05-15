@@ -3,6 +3,12 @@
 :root {
   --title-black: #333;
   --title-accent: #666;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --transition-speed: 0.5s;
+  --spacing-mobile: 0.5rem;
+  --spacing-tablet: 1rem;
+  --spacing-desktop: 1.5rem;
+  --border-radius-desktop: 15px;
 }
 
 // scss-docs-start theme-color-variables
@@ -25,4 +31,11 @@ $secondary: #e68935;
 $accent: #c2c747;
 
 $background_white: #f8f9fa;
+
+
+
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+
+$max-width: 1200px;
 

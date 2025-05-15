@@ -25,7 +25,7 @@ weight = 60
 
 [[social]]
   name = "GitHub"
-  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#github'/></svg>"
-  url = "https://github.com/filipecarneiro/hugo-bootstrap-theme/"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather'><use href='/icons/codicons/github.svg'/></svg>"
+  url = "https://github.com/softiceee/softiceee.github.io"
   weight = 70
   title = "Visit the GitHub project"

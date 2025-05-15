@@ -5,23 +5,17 @@
 @import "_bootstrap.scss";
 
 // Base scss
+@import "_variables";
+@import "_layouts";
 @import "_typography";
-@import "_sections";
-@import "_colors";
-
 
 // SORTIEREN
-
 @import "accordion";
-@import "columns";
 @import "goals";
 @import "icon_block";
 
-
 // Sections scss
-@import "sections/team";
-@import "sections/navigation-cards";
-@import "sections/hero";
-
-
-@import "_unsorted";
+@import "sections/_team";
+@import "sections/_navigation-cards";
+@import "sections/_navbar";
+@import "sections/_footer";

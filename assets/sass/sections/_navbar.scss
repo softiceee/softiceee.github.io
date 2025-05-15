@@ -1,0 +1,49 @@
+// navbar shadow
+.navbar {
+    background-color: transparent;
+    padding: .5rem 0;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0.1);
+}
+
+// navbar hover animation
+.navbar .nav-item {
+    color: var(--title-black);
+    padding: 0.1rem 0.1rem;
+    &:hover {
+        background-color: $primary;
+        border-radius: 0.3rem;
+        
+    }
+  }
+
+.navbar .nav-item a {
+    color: var(--title-black);
+    margin: 0 0.2rem;
+  }
+
+.navbar-nav .nav-link.active {
+    color: var(--title-black);
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 0.3rem;
+}
+
+.navbar-brand {
+    transition: transform 0.2s ease-in-out;
+    color: var(--title-black);
+    padding: 0.3rem 0.5rem;
+    &:hover {
+        background-color: $primary;
+        border-radius: 0.3rem;
+    }
+}
+
+// Github icon feather
+.feather {
+    width: 2em;
+    height: 2em;
+    stroke: #000;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}

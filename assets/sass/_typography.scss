@@ -1,22 +1,63 @@
+html {
+  font-size: 16px; // Set the root font size (example)
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  // text-align: center;
+}
+
+
+// <h> Typographies
+
+// page title h1
+h1 {
+  color: var(--title-black);  
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: var(--spacing-tablet);
+  position: relative;
+  display: inline-block;
+}
+
+h1 + p {
+  font-size: 1.2em;
+  color: var(--title-accent);
+  font-weight: 400;
+}
+
+// section title h2
+
+
 /* Title container */
-.page-title-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 30vh;
-  padding: 2rem 1rem;
-  text-align: center;
+// .page-title-container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   // min-height: 30vh;
+//   padding: 2rem 1rem;
+//   text-align: center;
+// }
 
-  /* Main title */
-  > .page-title {
-    position:relative;
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    margin-bottom: 0.5em;
-    color: var(--title-black);
-    font-weight: 700;
 
-    &::after {
+
+div.section-title > h2 {
+  color: var(--title-black);
+  font-size: 2.5em;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+h2 + p {
+  font-size: 1.2em;
+  color: var(--title-accent);
+}
+
+div.section-title > h2 {
+  &::after {
       content: "";
       position: absolute;
       bottom: -10px;
@@ -24,27 +65,98 @@
       transform: translateX(-50%);
       width: 120px;
       height: 4px;
-      background-color: $primary;
+      background-color: var(--title-black);
       border-radius: 2px;
-      
     }
+}
 
+.section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-bottom: var(--spacing-tablet);
+}
+
+// speaking title h3
+h3 {
+  color: var(--title-black);  
+  font-size: 2em;
+  font-weight: bold;
+  // margin-top: var(--spacing-mobile);
+  margin-bottom: var(--spacing-tablet);
+  position: relative;
+  display: inline-block;
+}
+
+h3 + p {
+  font-size: 1.2em;
+  color: var(--title-accent);
+}
+
+h3 + ul li {
+  font-size: 1.2em;
+  color: var(--title-accent);
+  margin-bottom: var(--spacing-mobile);
+}
+
+// detail title h4
+h4 {
+  color: var(--title-black);  
+  font-size: 1.5em;
+  margin-bottom: var(--spacing-tablet);
+  position: relative;
+  display: inline-block;
+}
+
+h4 + p {
+  font-size: 1em;
+  color: var(--title-accent);
+}
+
+@media (max-width: $breakpoint-mobile) {
+  h1 {
+    font-size: 2.5em;
+  }
+  h1 + p {
+    font-size: 1em;
   }
 
-  /* Subtitle */
-  > .page-subtitle {
-    font-size: clamp(1rem, 2vw, 1.5rem);
-    max-width: 800px;
-    color: var(--title-accent);
-    font-weight: normal;
+  h2 {
+      font-size: 2em;
+  }
+  h2 + p {
+      font-size: 1em;
+  }
+
+  h3 {
+      font-size: 1.5em;
+      margin-bottom: var(--spacing-mobile);
+      text-align: center;
+      display: block;
+  }
+  h3 + p, h3 + ul li {
+      font-size: 1em;
   }
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .page-title-container {
-    padding: 1.5rem 1rem;
-  }
-}
 
-$landing_text_size: 1.2rem;
+// add for animations
+// .content-area h2::after {
+//     content: '';
+//     position: absolute;
+//     bottom: -5px;
+//     left: 0;
+//     width: 0;
+//     height: 3px;
+//     background-color: var(--title-black);
+//     transition: width var(--transition-speed);
+// }
+
+// .row:hover .content-area h2::after {
+//     width: 100%;
+// }
+
+

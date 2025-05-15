@@ -55,7 +55,7 @@
         </ul>
 
         <!-- Language Menu -->
-        {{ if hugo.IsMultilingual -}}
+        {{/*  {{ if hugo.IsMultilingual -}}
         <div class="menu-language order-md-2">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
@@ -67,9 +67,6 @@
                   <a class="dropdown-item active" aria-current="true" href="{{ .RelPermalink }}"{{ with .Title }} title='{{ . }}' aria-label='{{ . }}'{{ end }}>
                     {{ .Site.Language.LanguageName }}
                   </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider">
                 </li>
                 {{ if .IsTranslated -}}
                 {{ range .Translations }}
@@ -94,7 +91,50 @@
             </li>
           </ul>
         </div>
+        {{ end -}}  */}}
+
+
+
+        {{/*   Gemini Attempt  */}}
+        {{ if hugo.IsMultilingual -}}
+        <div class="menu-language order-md-2">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              {{ $currentLang := .Site.Language.Lang }}
+              {{ $translation := false }}
+
+              {{/* Find the translation for the current page if it exists */}}
+              {{ if .IsTranslated }}
+                {{ range .Translations }}
+                  {{ if ne .Lang $currentLang }}
+                    {{ $translation = . }}
+                  {{ break }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+
+              {{/* If no translation for the current page, try the home page translation */}}
+              {{ if not $translation }}
+                {{ range .Site.Home.AllTranslations }}
+                  {{ if ne .Lang $currentLang }}
+                    {{ $translation = . }}
+                  {{ break }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+
+              {{/* Render the button if a translation was found */}}
+              {{ if $translation }}
+                <a class="nav-link" href="{{ $translation.RelPermalink }}" rel="alternate" hreflang="{{ $translation.Lang }}" lang="{{ $translation.Lang }}"{{ with $translation.Title }} title='{{ . }}' aria-label='{{ . }}'{{ end }}>
+                  {{ $translation.Language.LanguageName }}
+                </a>
+              {{ end }}
+            </li>
+          </ul>
+        </div>
         {{ end -}}
+
+
 
         <!-- Social Menu -->
         {{ if isset .Site.Menus "social" }}

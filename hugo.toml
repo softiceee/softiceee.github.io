@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-# title = 'DDLitLab'
+title = 'DDLitLab'
 # theme = 'ddlitlab'
 # themesdir = 'themes/'
 

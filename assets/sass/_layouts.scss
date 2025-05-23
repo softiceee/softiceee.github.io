@@ -46,7 +46,8 @@ section {
 }
 
 .content-area {
-    padding: var(--spacing-tablet);
+    // padding: var(--spacing-tablet);
+    padding: 80px;
 }
 
 .image-area img {
@@ -71,10 +72,15 @@ section {
 
     .content-area, .image-area {
         width: 100%;
+        // display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .content-area {
         order: 2;
+        padding: var(--spacing-mobile);
     }
 
     .image-area {

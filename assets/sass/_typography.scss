@@ -1,3 +1,23 @@
+// variables
+:root {
+  --size-h1: 3rem;
+  --size-h1-p: 1.5rem;
+
+
+  --size-h2: 2.5rem;
+  --size-h3: 2rem;
+  --size-h4: 1.5rem;
+  --size-h5: 1.2rem;
+
+
+}
+
+
+
+// Kommentare
+
+
+
 html {
   font-size: 16px; // Set the root font size (example)
 }
@@ -14,17 +34,20 @@ body {
 // page title h1
 h1 {
   color: var(--title-black);  
-  font-size: 3.5em;
+  font-size: var(--size-h1);
   font-weight: 700;
   margin-bottom: var(--spacing-tablet);
   position: relative;
   display: inline-block;
+  line-height: 1.2em;
+  
 }
 
 h1 + p {
-  font-size: 1.2em;
+  font-size: var(--size-h1-p);
   color: var(--title-accent);
   font-weight: 400;
+  
 }
 
 // section title h2
@@ -45,14 +68,14 @@ h1 + p {
 
 div.section-title > h2 {
   color: var(--title-black);
-  font-size: 2.5em;
+  font-size: var(--size-h2);
   font-weight: bold;
   position: relative;
   margin-bottom: 0.5em;
 }
 
 h2 + p {
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: var(--title-accent);
 }
 
@@ -84,7 +107,7 @@ div.section-title > h2 {
 // speaking title h3
 h3 {
   color: var(--title-black);  
-  font-size: 2em;
+  font-size: var(--size-h3);
   font-weight: bold;
   // margin-top: var(--spacing-mobile);
   margin-bottom: var(--spacing-tablet);
@@ -106,7 +129,7 @@ h3 + ul li {
 // detail title h4
 h4 {
   color: var(--title-black);  
-  font-size: 1.5em;
+  font-size: var(--size-h4);
   margin-bottom: var(--spacing-tablet);
   position: relative;
   display: inline-block;
@@ -120,7 +143,7 @@ h4 + p {
 // optional title h5
 h5 {
   color: var(--title-accent);  
-  font-size: 1.2em;
+  font-size: var(--size-h5);
   margin-bottom: var(--spacing-tablet);
   position: relative;
   display: inline-block;

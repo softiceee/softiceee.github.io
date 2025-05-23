@@ -28,6 +28,15 @@ body {
   // text-align: center;
 }
 
+p {
+  font-size: 1.3em;
+  color: var(--title-black);
+  // margin-bottom: var(--spacing-tablet);
+  // line-height: 1.5;
+
+
+}
+
 
 // <h> Typographies
 
@@ -133,6 +142,7 @@ h4 {
   margin-bottom: var(--spacing-tablet);
   position: relative;
   display: inline-block;
+  font-weight: 500;
 }
 
 h4 + p {

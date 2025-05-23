@@ -12,7 +12,7 @@
     }
     
     summary {
-      border: 0.1px solid #eee;
+      // border: 0.1px solid #eee;
       padding: 15px;
       cursor: pointer;
       font-weight: bold;
@@ -28,10 +28,18 @@
       }
     }
     
-    // summary:hover {
-    //   background-color: $primary;
-    //   border: 1px solid #ddd;
-    // }
+    summary:hover {
+      // background-color: $primary;
+      border: 0.1px solid rgba($primary, 0.3);
+      box-shadow: 5px 5px 5px rgba($primary, 0.3);
+      // background-color: rgba($accent, 0.3);
+      // transform: translateX(-5px);
+      
+
+      & h4 {
+        font-weight: 700;
+      }
+    }
     
     summary::-webkit-details-marker {
       display: none;

@@ -1,16 +1,19 @@
 .team-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  // justify-content: space-between; 
   flex: 1;
   // background-color: white;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
-  max-width: 400px;
+  // max-width: 400px;
+  width: 400px;
+  height: 600px;
   padding-right: 0;
   padding-left: 0;
+  color: #666;
 
   &:hover {
     transform: translateY(-5px);
@@ -22,16 +25,29 @@
   }
 }
 
+.team-card .card-content ul {
+  list-style-position: outside; /* Ensure bullets are outside the content flow */
+  padding-left: 0; /* Reset default padding */
+  margin-left: 1em; /* Adjust this value to align with h4/h5 */
+}
+
+.team-card .card-content li {
+  margin-bottom: 0.25em; /* Add some spacing between list items */
+}
+
 .card-image {
   width: 100%;
   // height: 250px;
   overflow: hidden;
+  max-height: 300px;
 }
 
 .card-content {
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start; /* Add this line */
+
 }
 
 .card-image img {

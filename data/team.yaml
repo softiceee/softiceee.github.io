@@ -1,0 +1,26 @@
+# placehold: https://placehold.co/400.webp?text=600%20x%20600%5Cnwebp
+- name: "Julia Pawlowski"
+  title: "Wissenschaftliche Mitarbeiterin"
+  image: "https://assets.rrz.uni-hamburg.de/instance_assets/zentrale/17562464/pawlowski-julia-e6b940a3b309f578443ddcd02b09ccd89f8788a8.png"
+  description:
+    - "Visuelle Aufbereitung und Gestaltung von Lehrmaterialien"
+    - "Visuelle (Wissenschafts-)Kommunikation in digitalen Angeboten"
+  # email: "jane@example.com"
+- name: "David Jacobs"
+  title: "Wissenschaftlicher Mitarbeiter"
+  image: "/images/team/david.png"
+  description:
+    - "Koordination Datenwelten & DLE-Koordination im Bereich Jupyter"
+  # email: "john@example.com"
+- name: "Felix Hartel"
+  title: "Wissenschaftliche Hilfskraft"
+  image: "https://placehold.co/400.webp?text=600%20x%20600%5Cnwebp"
+  # description:
+  #   - "Koordination Datenwelten & DLE-Koordination im Bereich Jupyter"
+  # email: "john@example.com"
+- name: "Carolin Reichert"
+  title: "Wissenschaftliche Hilfskraft"
+  image: "https://placehold.co/400.webp?text=600%20x%20600%5Cnwebp"
+  # description:
+  #   - "Koordination Datenwelten & DLE-Koordination im Bereich Jupyter"
+  # email: "john@example.com"

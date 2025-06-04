@@ -13,6 +13,29 @@
     // min-height: 60vh;
 }
 
+.wide-text {
+    padding: 20px;
+    text-align: justify;
+    
+
+}
+
+
+.wide-image {
+    max-width: 100%; /* Ensure it doesn't exceed the container */
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+  max-width: 100%; /* ensure images don't overflow their containers */
+  height: auto; /* maintain aspect ratio */
+  display: block; /* removes extra space below image */
+  border-radius: 12px;
+}
+
 section {
     padding: var(--spacing-desktop);
     display: flex;
@@ -31,6 +54,7 @@ section {
     margin-bottom: var(--spacing-tablet);
     gap: var(--spacing-tablet);
     align-items: center;
+    // max-width: 100%;
     // margin-right: 0;
     // margin-left: 0;
     // margin-top: 0;

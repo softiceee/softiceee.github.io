@@ -3,21 +3,6 @@ title: "Ringvorlesung Datenwelten"
 draft: false
 ---
 
-
-<h1>H1 Header</h1>
-<p>H1 Header Description</p>
-<h2>H2 Header</h2>
-<p>H2 Header Description</p>
-<h3>H3 Header</h3>
-<p>H3 Header Description</p>
-<h4>H4 Header</h4>
-<p>H4 Header Description</p>
-<h5>H5 Header</h5>
-<p>H5 Header Description</p>
-
-
-
-
 <section>
     <div class="section-title">
         <h2>Ringvorlesung Datenwelten</h2>
@@ -53,25 +38,54 @@ draft: false
     </section>
 
 
+
+
+
 <section>
     <div class="section-title">
-        <h2>Section Title</h2>
-        <p>Section Title Description.</p>
-    </div>
-    <div class="row reverse">
-        <div class="content-area">
-            <h3>Speaking Title</h3>
-            <ul>
-                <li>List elements</li>
-                <li>Element 2</li>
-                <li>Element 3</li>
-            </ul>
-        </div>
-        <div class="image-area">
-            <img src="https://placehold.co/1200x800.webp?text=1200%20x%20800\nwebp" alt="1200x800">
-        </div>
+        <h2>Inhalte der Datenwelten</h2>
+        <p>Winter / Sommer Zyklus.</p>
     </div>
 </section>
+
+
+<section>
+    <div class="section-title">
+        <h2>Begleitende Übungen</h2>
+        <p>Literate Programming Hands-On.</p>
+    </div>
+    <div class="wide-text">
+    <p>
+      Die Übungen zu den Vorlesungen bieten eine praktische Vertiefung der Inhalte. Sie sind so gestaltet, dass sie sowohl für Studierende mit als auch ohne Vorkenntnisse im Programmieren zugänglich sind. Die Übungen fördern das Verständnis von Datenanalyse und Machine Learning durch interaktive Aufgaben und Projekte, die in Jupyter Notebooks durchgeführt werden. 
+      </p>
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>Vergangene Veranstaltungen</h2>
+        <p>Begleittext.</p>
+    </div>
+    <div class="timeline">
+        <div class="container left">
+            <time>Wintersemester 2020/21</time>
+            <!-- <div class="date">Wintersemester 2021/22</div> -->
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2024</time>
+            <!-- <div class="date">Sommersemester 2024</div> -->
+            <img src="/icons/codicons/tools.svg" alt="tools">
+            <img src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+    </div>
+
+
+</section>
+
+
+- Verlinkung zu Github Repository der Übungen
+- JupyterLab der UHH? -> eigentlich Quatsch, lieber erwähnen
 
 
 <!-- 

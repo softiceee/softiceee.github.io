@@ -66,17 +66,46 @@ draft: false
         <h2>Vergangene Veranstaltungen</h2>
         <p>Begleittext.</p>
     </div>
+    <div class="row">
+        <img class="timeline-icon" src="/icons/codicons/book.svg" alt="book"> <p>Vorlesung</p>
+        <img class="timeline-icon" src="/icons/codicons/tools.svg" alt="tools"> <p>Übung</p>
+    </div>
     <div class="timeline">
         <div class="container left">
-            <time>Wintersemester 2020/21</time>
-            <!-- <div class="date">Wintersemester 2021/22</div> -->
+            <time>Wintersemester 2021/22</time>
             <img src="/icons/codicons/book.svg" alt="book">
             </div>
         <div class="container right">
+            <time>Sommersemester 2022</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container left">
+            <time>Wintersemester 2022/23</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2023</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container left">
+            <time>Wintersemester 2023/24</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+        <div class="container right">
             <time>Sommersemester 2024</time>
-            <!-- <div class="date">Sommersemester 2024</div> -->
-            <img src="/icons/codicons/tools.svg" alt="tools">
-            <img src="/icons/codicons/tools.svg" alt="tools">
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+                <div class="container left">
+            <time>Wintersemester 2024/25</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2025</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
             </div>
     </div>
 

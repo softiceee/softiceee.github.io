@@ -73,7 +73,9 @@ draft: false
     <div class="timeline">
         <div class="container left">
             <time>Wintersemester 2021/22</time>
-            <img src="/icons/codicons/book.svg" alt="book">
+            <!-- <a href="https://www.stine.uni-hamburg.de/scripts/mgrqispi.dll?APPNAME=CampusNet&PRGNAME=COURSEDETAILS&ARGUMENTS=-N000000000000001,-N000605,-N0,-N379594586393059,-N379594586363060,-N0,-N0,-N3,-AcMLhrURSffWyVjLSHDoJfIfNfW5sHuPerqGCPo57Rq597ZUdRIf-HNHmHY6CVWRpfNmI7NPovIm-4YGdcDNFmBWAOdU5RtZ0RN5oRUPLPIpN4Ym7vQpgOqGoYgouVfwycZDNOUPZ3zKmVQL3VgU-cYPmR-c-OjPLOdV9vfUYCumWffDNYSo8fdWBWjKme-ejWNAjOQew4SRJmdolPMHwPWW7PNRdxDRJfDKWVqGHQZma3oL9xfA-WBZWfDUXxSV9mUe9RZHoxfKlWDAwvBZhRgp0QN68VomA4B69xNDZejpVvWoHmDKsVjLJfN6YPDKkmD6mcZpkfqcNmSALPIPVWSeNQzwdOIi9cDPxWuH5QgPsQuHx7NwYVUUk3YA-4SlAmtZKYYmv3f6sOQDjRDw6foUBYBHdRDU8YoaFVWWJcdRBxzZVvYfFYzLS7fLu3zodOgpFrDnFffoh3omI7gUQfMaFWYnjvIWCOYAvRjpHHBZaczWfWqwNvBmQRDwjOWWwRjmdHzUWfqW6cDeFefRjHULHvZawRfwexzWKYqAec-5fOZmtVfZBrqWKmumIvuHK7QWhcfZCvd7-xdHKCYolCQUaHqmDvBK67fZUHoWtWfANRuWuPvZfQzWSxf5pQqRucDR8vgiNmjcNfUiZRMPVQqAFWUoyQSPaRdUAeQPFfQRaVIHhOuH9m-W3V-D6RBKI3oPKVUoH4oRAWImHPSpdcMPocSLlmuRFWjpzYMFtPumVCumExUHyRSR6WfNFOzAY"> -->
+                <img src="/icons/codicons/book.svg" alt="book">
+                <!-- </a> -->
             </div>
         <div class="container right">
             <time>Sommersemester 2022</time>
@@ -115,7 +117,7 @@ draft: false
 
 - Verlinkung zu Github Repository der Übungen
 - JupyterLab der UHH? -> eigentlich Quatsch, lieber erwähnen
-
+- https://www.hcl.uni-hamburg.de/ddlitlab/datenwelten.html
 
 <!-- 
  <div class="py-2">

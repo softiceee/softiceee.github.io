@@ -59,6 +59,20 @@ draft: false
       Die Übungen zu den Vorlesungen bieten eine praktische Vertiefung der Inhalte. Sie sind so gestaltet, dass sie sowohl für Studierende mit als auch ohne Vorkenntnisse im Programmieren zugänglich sind. Die Übungen fördern das Verständnis von Datenanalyse und Machine Learning durch interaktive Aufgaben und Projekte, die in Jupyter Notebooks durchgeführt werden. 
       </p>
     </div>
+    <div class="row">
+        <a href="https://jupyter.org/">
+        <img src="/svg/jupyter.svg" alt="Jupyter" class="logo-big logo-bigger">
+        </a>
+        <a href="https://www.r-project.org/">
+        <img src="/svg/R.svg" alt="R" class="logo-big logo-bigger">
+        </a>
+        <a href="https://www.tidyverse.org/">
+        <img src="/svg/tidyverse.svg" alt="tidyverse" class="logo-big logo-bigger">
+        </a>
+        <a href="https://about.gitlab.com/">
+        <img src="/svg/gitlab_only.svg" alt="gitlab" class="logo-big logo-bigger">
+        </a>
+      </div>
 </section>
 
 <section>

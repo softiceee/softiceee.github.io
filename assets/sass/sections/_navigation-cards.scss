@@ -1,3 +1,10 @@
+.navigation-row {
+    gap: 20px;
+
+}
+
+
+
 .navigation-card {
     
     color: var(--title-black);
@@ -6,15 +13,27 @@
     border-radius: 15px;
     overflow: hidden;
     background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    // background: $primary;
     box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
     position: relative;
     text-align: center;
     text-decoration: none;
-    padding: var(--spacing-desktop);
+    padding: 18px;
     flex: 1;
+    
+    
+
+    width: 190px;
+    height: auto;
 
     // width: 250px;
     // height: 250px;
+    p {
+        font-size: 1.2rem;
+        // font-weight: 500;
+        // text-transform: uppercase;
+        
+    }
     
 
     &:hover {
@@ -25,7 +44,14 @@
 
     &>div {
         margin-bottom: 1rem;
+
+        &>img {
+            width: 32px;
+            height: 32px;
+            margin: 6pt auto;
+        };
     }
+
 }
 
 // a.navigation-card {

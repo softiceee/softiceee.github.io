@@ -1,0 +1,7 @@
+{{ $publicationIndex := .Get "publication" | int }}
+{{ $publication := index site.Data.publications $publicationIndex }}
+<div class="publication-card">
+  <h2 class="publication-card-title">{{ $publication.title }}</h2>
+  <p class="publication-card-authors">{{ $publication.authors }}</p>
+  <a href="{{ $publication.link }}" class="publication-card-link">Go to publication</a>
+</div>

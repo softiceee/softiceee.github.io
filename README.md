@@ -1,3 +1,15 @@
+Todos:
+- Akkordeon Text Element auf 2/3 Breite, weniger Padding
+- Vertikale Timeline (ausgegraute Enden): https://codepen.io/brady_wright/pen/NNOvrW
+- Timeline: Icons pro Kategorie (Inhalte an Zeitstrahl von Felix orientieren)
+- Bild and UHH-Format anpassen
+- Kacheln kleiner machen, damit die Bilder nicht verpixelt sind -> Kacheln auf Querformat ändern
+- alle Mitarbeiter:innen mit aufnehmen
+- auf FIS verlinken (https://www.fis.uni-hamburg.de/publikationen.html?q=DDLitLab&order=publicationYear&orderBy=descending&treffer=10&publishedAfterDate=&publishedBeforeDate=)
+- Bei Publikationen: ausgewählte Publikationen; als kleine zwarte Boxen (zB dünner Rand, mit Titel, Autor:innen und Link zur Publikation -> Button mit Hover Effekt)
+- Link zum FIS: Button "Weitere Publikationen"
+
+
 # DDLitab Webseite
 
 Link: https://softiceee.github.io/ddlit-prototype/

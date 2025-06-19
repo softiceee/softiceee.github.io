@@ -57,6 +57,10 @@
     left: calc(-0.5rem - 2px);;
   }
 
+  &.no-color::after {
+    background: #fff;
+  }
+
   &::before {
     content: '';
     position: absolute;

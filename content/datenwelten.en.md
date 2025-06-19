@@ -84,6 +84,88 @@ draft: false
         <img class="timeline-icon" src="/icons/codicons/book.svg" alt="book"> <p>Vorlesung</p>
         <img class="timeline-icon" src="/icons/codicons/tools.svg" alt="tools"> <p>Übung</p>
     </div>
+<div class="row example-centered">
+        <div>
+            <ul class="timeline timeline-centered">
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>Wintersemester 2021/2022</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <img src="/icons/codicons/book.svg" alt="book">
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 23, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class="timeline">
+        <div class="container left">
+            <time>Wintersemester 2021/22</time>
+                <img src="/icons/codicons/book.svg" alt="book">
+                <!-- </a> -->
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2022</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container left">
+            <time>Wintersemester 2022/23</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2023</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container left">
+            <time>Wintersemester 2023/24</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2024</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+                <div class="container left">
+            <time>Wintersemester 2024/25</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2025</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+    </div>
+
+
+</section>
+
+
+
+
+<section>
+    <div class="section-title">
+        <h2>Vergangene Veranstaltungen</h2>
+        <p>Begleittext.</p>
+    </div>
+    <div class="row">
+        <img class="timeline-icon" src="/icons/codicons/book.svg" alt="book"> <p>Vorlesung</p>
+        <img class="timeline-icon" src="/icons/codicons/tools.svg" alt="tools"> <p>Übung</p>
+    </div>
     <div class="timeline">
         <div class="container left">
             <time>Wintersemester 2021/22</time>

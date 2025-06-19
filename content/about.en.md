@@ -21,13 +21,84 @@ draft: false
     </div>
   </section>
 
-
-<section class="timeline">
-  <div class="section-title">
-    <h2>Timeline</h2>
-    <p>A journey through time.</p>
-  </div>
+<section>
+    <div class="section-title">
+        <h2>Timeline</h2>
+        <p>A journey through time.</p>
+    </div>
+    August 2021: Kick-Off DDLitLab
+    Oktober 2021: Start Datenwelten I
+    April 2021: Start Datenwelten II + Erste Runde Lehrlabore
+    Mai 2022: Start DDLitLab Lecture Series
+    Oktober 2022: Erste Runde Studi-Projekte
+    Dezember 2022: Launch Lehre-Navi
+    April 2023: Zweite Runde Lehrlabore + Zweite Runde Studi-Projekte
+    Juli 2023: Auftakt KI-Hands On
+    September 2023: Publikation: "ChatGPT and me"
+    Oktober 2023: Dritte Runde Studi-Projekte + Start Datenwelten-Übung
+    August 2024: Verlängerung DDLitLab und Entwicklung "CDTLs"
+    Oktober 2024: Vierte Runde Studi-Projekte + "ChatGPT and me 2.0"
 </section>
+
+
+<div class="container-fluid">
+<div class="row example-centered">
+        <div>
+            <ul class="timeline timeline-centered">
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 12, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Test.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>Oktober 2021</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Kick-Off DDLitLab</h3>
+                        <p>Test2.</p>
+                    </div>
+                </li>
+                <li class="timeline-item period">
+                    <div class="timeline-info"></div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">April 2016</h2>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>April 02, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Test </p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>April 28, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Null </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+
 
 
 

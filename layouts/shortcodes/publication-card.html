@@ -1,7 +1,21 @@
 {{ $publicationIndex := .Get "publication" | int }}
 {{ $publication := index site.Data.publications $publicationIndex }}
 <div class="publication-card">
-  <h2 class="publication-card-title">{{ $publication.title }}</h2>
-  <p class="publication-card-authors">{{ $publication.authors }}</p>
+  <h5 class="publication-card-title">{{ $publication.title }}</h5>
+  <p> 
+    {{ $publication.subtitle }} 
+  </p> 
+  <p class="publication-card-authors">
+    <i class="codicon codicon-person publication-icon"></i>
+    <span class="uppercase">
+      Authors: 
+    </span>
+    {{ $publication.authors }}
+  </p>
+  <p class="publication-card-authors">
+    {{ $publication.date }}
+  </p>
   <a href="{{ $publication.link }}" class="publication-card-link">Go to publication</a>
 </div>
+
+

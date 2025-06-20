@@ -159,7 +159,7 @@ draft: false
       {{< publication-card publication="1">}}
     </div>
 
-  <div>
+  <div class="publication-button">
     <a href="https://www.fis.uni-hamburg.de/publikationen.html?q=DDLitLab&order=publicationYear&orderBy=descending&treffer=10&publishedAfterDate=&publishedBeforeDate=">
       <button class="learn-more">
         <span class="circle" aria-hidden="true">

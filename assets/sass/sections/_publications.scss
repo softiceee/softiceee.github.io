@@ -13,10 +13,12 @@ button {
   vertical-align: middle;
   text-decoration: none;
   background: transparent;
-  padding: 0;
+  // margin: 50px;
+  
   
   &.learn-more {
     width: 20rem;
+    // padding: 50px;
     height: auto;
     .circle {
       @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
@@ -91,6 +93,12 @@ button {
 }
 
 
+.publication-icon {
+  color: $primary;
+  font-size: 2rem !important;
+}
+
+
 
 
 
@@ -98,8 +106,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-
-
+    margin: 50px auto;
 }
 
 .publication-card {
@@ -111,6 +118,7 @@ button {
     padding: 2rem;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    max-width: 600px;
 
     &:hover {
         transform: translateY(-4px);
@@ -154,3 +162,10 @@ button {
 // .publication-card-link:active {
 //     transform: translateY(0);
 // }
+
+
+.publication-button {
+    margin: 0 auto;
+    // display: inline-block;
+    
+}

@@ -26,75 +26,108 @@ draft: false
         <h2>Timeline</h2>
         <p>A journey through time.</p>
     </div>
-    August 2021: Kick-Off DDLitLab
-    Oktober 2021: Start Datenwelten I
-    April 2021: Start Datenwelten II + Erste Runde Lehrlabore
-    Mai 2022: Start DDLitLab Lecture Series
-    Oktober 2022: Erste Runde Studi-Projekte
-    Dezember 2022: Launch Lehre-Navi
-    April 2023: Zweite Runde Lehrlabore + Zweite Runde Studi-Projekte
-    Juli 2023: Auftakt KI-Hands On
-    September 2023: Publikation: "ChatGPT and me"
-    Oktober 2023: Dritte Runde Studi-Projekte + Start Datenwelten-Übung
-    August 2024: Verlängerung DDLitLab und Entwicklung "CDTLs"
-    Oktober 2024: Vierte Runde Studi-Projekte + "ChatGPT and me 2.0"
 </section>
 
 
-<div class="container-fluid">
-<div class="row example-centered">
-        <div>
-            <ul class="timeline timeline-centered">
-                <li class="timeline-item">
-                    <div class="timeline-info">
-                        <span>March 12, 2016</span>
-                    </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Event Title</h3>
-                        <p>Test.</p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-info">
-                        <span>Oktober 2021</span>
-                    </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Kick-Off DDLitLab</h3>
-                        <p>Test2.</p>
-                    </div>
-                </li>
-                <li class="timeline-item period">
-                    <div class="timeline-info"></div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h2 class="timeline-title">April 2016</h2>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-info">
-                        <span>April 02, 2016</span>
-                    </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Event Title</h3>
-                        <p>Test </p>
-                    </div>
-                </li>
-                <li class="timeline-item">
-                    <div class="timeline-info">
-                        <span>April 28, 2016</span>
-                    </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Event Title</h3>
-                        <p>Null </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+<div class="row">
+    <ul class="timeline timeline-centered">
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <span>August 2021</span>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h5 class="timeline-title">Kick-Off DDLitLab</h5>
+                <p class="timeline-text">
+                  Das DDLitLab startet offiziell mit einem Kick-Off-Event, bei dem die Ziele und Visionen des Projekts vorgestellt werden. Das Team trifft sich, um die nächsten Schritte zu planen und die Zusammenarbeit zu koordinieren.
+                </p>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <span>Oktober 2021</span>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h5 class="timeline-title">Start Datenwelten I</h5>
+                <p class="timeline-text">
+                  Das erste Modul des DDLitLab, "Datenwelten I", beginnt. In diesem Modul werden die Grundlagen der Datenkompetenz vermittelt, einschließlich der Bedeutung von Daten in der heutigen Gesellschaft und der grundlegenden Fähigkeiten im Umgang mit Daten.
+                </p>
+            </div>
+        </li>
+        <li class="timeline-item period">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h3 class="timeline-title">2022</h3>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <span>April 2022</span>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h5 class="timeline-title">Start Datenwelten II + Erste Runde Lehrlabore</h5>
+                <p class="timeline-text">
+                  Das zweite Modul "Datenwelten II" startet, in dem die Studierenden ihre Kenntnisse in der Datenanalyse vertiefen. Gleichzeitig beginnt die erste Runde der Lehrlabore, in denen innovative Lehrmethoden und digitale Tools erprobt werden.
+                </p>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <span>Mai 2022</span>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h5 class="timeline-title">Start DDLitLab Lecture Series</h5>
+                <p class="timeline-text">
+                  Die DDLitLab Lecture Series beginnt, in der Expert:innen aus verschiedenen Bereichen Vorträge zu Themen rund um digitale und datenbezogene Kompetenzen halten. Diese Vortragsreihe bietet eine Plattform für den Austausch von Ideen und Best Practices.
+                </p>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <span>Oktober 2022</span>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h5 class="timeline-title">Erste Runde Studi-Projekte</h5>
+                <p class="timeline-text">
+                  Die erste Runde der Studierendenprojekte startet. In diesen Projekten arbeiten die Studierenden an realen Herausforderungen und entwickeln innovative Lösungen, die ihre Datenkompetenz und digitalen Fähigkeiten weiter stärken.
+                </p>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <span>Dezember 2022</span>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h5 class="timeline-title">Launch Lehre-Navi</h5>
+                <p class="timeline-text">
+                  Das Lehre-Navi wird eingeführt, eine Plattform, die Studierenden hilft, geeignete Lehrveranstaltungen und Ressourcen zu finden, die ihre digitalen und datenbezogenen Kompetenzen fördern. Diese Plattform ist ein wichtiger Schritt zur Verbesserung der Lehr- und Lernumgebung an der Universität Hamburg.
+                </p>
+            </div>
+        </li>
+        <li class="timeline-item period">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h3 class="timeline-title">2023</h3>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-info">
+                <span>April 2023</span>
+            </div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+                <h5 class="timeline-title">Zweite Runde Lehrlabore + Zweite Runde Studi-Projekte</h5>
+                <p class="timeline-text">
+                  Die zweite Runde der Lehrlabore beginnt, in der neue digitale Lehrmethoden und -technologien erprobt werden. Gleichzeitig startet die zweite Runde der Studierendenprojekte, in denen die Studierenden ihre Fähigkeiten weiter vertiefen und anwenden können.
+                </p>
+            </div>
+        </li>
+    </ul>
 </div>
 </div>
 

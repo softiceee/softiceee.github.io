@@ -9,7 +9,7 @@ draft: false
       <p>Digital denken von Anfang an.</p>
   </div>
   <div class="wide-image">
-      <img src="https://placehold.co/2000x800.webp?text=team picture\nwebp" alt="team picture">
+      <img src="/images/team/_gruppenbild.jpg" alt="team picture">
     </div>
   <div class="wide-text">
     <p>
@@ -26,10 +26,7 @@ draft: false
         <h2>Timeline</h2>
         <p>A journey through time.</p>
     </div>
-</section>
-
-
-<div class="row">
+    <div class="row">
     <ul class="timeline timeline-centered">
         <li class="timeline-item">
             <div class="timeline-info">
@@ -130,7 +127,7 @@ draft: false
     </ul>
 </div>
 </div>
-
+</section>
 
 
 
@@ -149,7 +146,7 @@ draft: false
   </section>
 
 
-<section class="section-publications section-grey" id="publications">
+<section class="section-publications" id="publications">
   <div class="section-title">
     <h2>Publications</h2>
     <p>Our work in the field.</p>

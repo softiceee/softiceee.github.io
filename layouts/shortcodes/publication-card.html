@@ -1,21 +1,35 @@
 {{ $publicationIndex := .Get "publication" | int }}
 {{ $publication := index site.Data.publications $publicationIndex }}
 <div class="publication-card">
-  <h5 class="publication-card-title">{{ $publication.title }}</h5>
-  <p> 
-    {{ $publication.subtitle }} 
-  </p> 
-  <p class="publication-card-authors">
-    <i class="codicon codicon-person publication-icon"></i>
-    <span class="uppercase">
-      Authors: 
-    </span>
-    {{ $publication.authors }}
-  </p>
-  <p class="publication-card-authors">
-    {{ $publication.date }}
-  </p>
-  <a href="{{ $publication.link }}" class="publication-card-link">Go to publication</a>
-</div>
-
-
+        <div class="publication-card-header">
+            <div class="publication-title-section">
+                <h1 class="publication-title">{{ $publication.title }}</h1>
+                <p class="publication-subtitle">{{ $publication.subtitle }}</p>
+            </div>
+            <div class="publication-date-section">
+                <i class="codicon codicon-calendar"></i>
+                <span>{{ $publication.date }}</span>
+            </div>
+        </div>
+        
+        <div class="publication-authors-section">
+            <i class="codicon codicon-person"></i>
+            <span class="uppercase">
+              Authors: 
+            </span>
+            <span class="publication-authors">{{ $publication.authors }}</span>
+        </div>
+        
+        <div class="publication-card-footer">
+          <div class="publication-button small">
+            <a href="{{ $publication.link }}">
+              <button class="learn-more small">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Go to publication</span>
+              </button>
+              </a>
+          </div>
+        </div>
+    </div>

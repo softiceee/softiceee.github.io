@@ -61,21 +61,25 @@
 }
 
 .nav-links li {
-    padding: 0 0rem;
+    padding:  0.5rem;
 }
 
 .nav-links a {
     // color: white;
     color: var(--title-black);
     text-decoration: none;
-    transition: color 0.3s ease;
-    padding: 0.5rem 0.5rem;
+    // transition: color 0.3s ease;
+    padding: 0.4rem 0.4rem;
     font-size: 1.2rem;
+    // font-weight: bold; // Reserve space for bold font always
 }
 
 .nav-links a:hover {
-    background-color: $primary;
+    background-color: #ffac00;
     border-radius: 0.3rem;
+    // font-weight: bold; 
+    color: #ffffff; // <-- change font color to white
+    
 }
 
 // /* Language switcher styles */

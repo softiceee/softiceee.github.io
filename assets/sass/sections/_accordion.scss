@@ -30,8 +30,12 @@
     
     summary:hover {
       // background-color: $primary;
-      border: 0.1px solid rgba($primary, 0.3);
+      // border: 0.1px solid rgba($primary, 0.3);
       box-shadow: 5px 5px 5px rgba($primary, 0.3);
+      transition-property: color;
+      transition-duration: 0.3s;
+      color: #ffac00;
+    
       // background-color: rgba($accent, 0.3);
       // transform: translateX(-5px);
       

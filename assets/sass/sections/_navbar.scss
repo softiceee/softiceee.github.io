@@ -1,49 +1,179 @@
-// navbar shadow
+/* Navigation container */
 .navbar {
-    background-color: transparent;
-    padding: .5rem 0;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1),inset 0 -1px 0 rgba(0,0,0,0.1);
+    background-color: $background_white;
+    color: var(--title-black);
+    padding: 1rem;
 }
 
-// navbar hover animation
-.navbar .nav-item {
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    // gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
     color: var(--title-black);
-    padding: 0.1rem 0.1rem;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 0rem 0.5rem;
+
     &:hover {
         background-color: $primary;
         border-radius: 0.3rem;
-        
     }
-  }
 
-.navbar .nav-item a {
-    color: var(--title-black);
-    margin: 0 0.2rem;
-  }
+    & > img {
+        height: 40px;
+    }
+    
+}
 
-.navbar-nav .nav-link.active {
+/* Hamburger icon using CSS */
+.hamburger {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: var(--title-black);
+    box-shadow: 0 10px 0 var(--title-black), 0 20px 0 var(--title-black);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding:  0.5rem;
+}
+
+.nav-links a {
+    // color: white;
     color: var(--title-black);
-    background-color: rgba(0,0,0,0.1);
+    text-decoration: none;
+    // transition: color 0.3s ease;
+    padding: 0.4rem 0.4rem;
+    font-size: 1.2rem;
+    // font-weight: bold; // Reserve space for bold font always
+}
+
+.nav-links a:hover {
+    background-color: #ffac00;
     border-radius: 0.3rem;
+    // font-weight: bold; 
+    color: #ffffff; // <-- change font color to white
+    
 }
 
-.navbar-brand {
-    transition: transform 0.2s ease-in-out;
-    color: var(--title-black);
-    padding: 0.3rem 0.5rem;
-    &:hover {
-        background-color: #ffac00;
-        border-radius: 0.3rem;
+// /* Language switcher styles */
+// .language-switcher {
+//     position: relative;
+//     cursor: pointer;
+// }
+
+// .active-lang {
+//     display: flex;
+//     align-items: center;
+//     font-weight: bold;
+// }
+
+// .active-lang::after {
+//     content: "▼";
+//     font-size: 0.7em;
+//     margin-left: 5px;
+// }
+
+// .lang-dropdown {
+//     position: absolute;
+//     top: 100%;
+//     right: 0;
+//     background-color: $background_white;
+//     min-width: 120px;
+//     border-radius: 4px;
+//     overflow: hidden;
+//     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+//     opacity: 0;
+//     visibility: hidden;
+//     transform: translateY(10px);
+//     transition: all 0.3s ease;
+// }
+
+// .language-switcher:hover .lang-dropdown {
+//     opacity: 1;
+//     visibility: visible;
+//     transform: translateY(0);
+// }
+
+// .lang-dropdown a {
+//     display: block;
+//     padding: 10px 15px;
+// }
+
+// .lang-dropdown a:hover {
+//     background-color: #555;
+// }
+
+// .lang-dropdown a.current {
+//     background-color: #222;
+// }
+
+#nav-toggle {
+    display: none;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1060px) {
+    .hamburger {
+        display: block;
+        z-index: 2;
     }
-}
-
-// Github icon feather
-.feather {
-    width: 2em;
-    height: 2em;
-    stroke: #000;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    fill: none;
+    
+    #nav-toggle:checked ~ .nav-links {
+        right: 0;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -70%;
+        width: 70%;
+        height: 100vh;
+        background-color: $background_white;
+        flex-direction: column;
+        padding-top: 60px;
+        transition: right 0.3s ease;
+        z-index: 1;
+    }
+    
+    .nav-links li {
+        padding: 0.5rem 1rem;
+    }
+    
+    /* Mobile language switcher adjustment */
+    // .language-switcher {
+    //     margin-top: 20px;
+    // }
+    
+    // .lang-dropdown {
+    //     position: relative;
+    //     margin-top: 10px;
+    //     width: 100%;
+    // }
 }

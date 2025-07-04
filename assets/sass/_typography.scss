@@ -32,7 +32,7 @@ p {
   font-size: 1.3em;
   color: var(--black);
   line-height: 1.5;
-  margin: 6pt;
+  margin-bottom: 6pt;
 
 }
 
@@ -110,6 +110,7 @@ div.section-title > h2 {
   padding: 2rem 1rem;
   // margin-bottom: var(--spacing-tablet);
   width: 100%;
+  max-width: var(--breakpoint-mobile);;
 }
 
 // speaking title h3

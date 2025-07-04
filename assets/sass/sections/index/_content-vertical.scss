@@ -1,0 +1,42 @@
+.content-area-vertical {
+    flex: 1.5;
+
+    > h3 {
+        font-size: var(--size-h3);
+        color: var(--black);
+        font-weight: 500;
+    }
+
+    > p {
+        font-size: var(--size-h1-p);
+        color: var(--black-light);
+        // text-align: justify;
+    }
+}
+
+.content-text {
+    font-size: 1.5em;
+    color: var(--black-light);
+}
+
+.image-area-vertical {
+    flex: 1;
+}
+
+@media (max-width: var(--breakpoint-mobile)) {
+    .content-area-vertical, .image-area-vertical {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content-area-vertical {
+        order: 2;
+        padding: var(--spacing-mobile);
+    }
+
+    .image-area-vertical {
+        order: 1;
+    }
+}

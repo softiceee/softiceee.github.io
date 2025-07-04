@@ -1,5 +1,8 @@
 .content-area-vertical {
     flex: 1.5;
+    width: var(--breakpoint-mobile);
+    // width: 500px;
+    text-align: justify;
 
     > h3 {
         font-size: var(--size-h3);
@@ -12,7 +15,24 @@
         color: var(--black-light);
         // text-align: justify;
     }
+    position: relative;
+            z-index: 1;
+
+    padding: 50px;
 }
+
+.content-area-vertical::before {
+    content: ''; /* Essential for pseudo-elements */
+    position: absolute; /* Position relative to the parent .triangle-container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make it fill the width of the container */
+    height: 100%; /* Make it fill the height of the container */
+    background-color: var(--accent-light); /* Color the background element */
+    z-index: 0; /* Ensure it's behind the content */
+    clip-path: polygon(0% 0%, 20% 0%, 80% 100%, 0% 100%);
+}
+
 
 .content-text {
     font-size: 1.5em;
@@ -21,6 +41,7 @@
 
 .image-area-vertical {
     flex: 1;
+    margin: 30px;
 }
 
 @media (max-width: var(--breakpoint-mobile)) {

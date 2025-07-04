@@ -43,7 +43,7 @@
     padding: 0rem 0.5rem;
 
     &:hover {
-        background-color: var(--primary);
+        background-color: var(--secondary);
         border-radius: 0.3rem;
     }
 
@@ -93,7 +93,7 @@
 }
 
 .nav-links a:hover {
-    background-color: #ffac00;
+    background-color: var(--secondary);
     border-radius: 0.3rem;
     // font-weight: bold; 
     color: #ffffff; // <-- change font color to white

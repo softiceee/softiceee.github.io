@@ -1,6 +1,7 @@
 /* Navigation container */
 .navbar {
     background-color: var(--white-dark);
+    background-color: #fff;
     color: var(--black);
     padding: 1rem;
     position: relative;
@@ -38,7 +39,7 @@
 
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
 
     padding: 0rem 0.5rem;
 
@@ -48,7 +49,8 @@
     }
 
     & > img {
-        height: 40px;
+        height: 50px;
+        border-radius: 0;
     }
     
 }

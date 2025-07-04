@@ -6,15 +6,8 @@
 
   <nav class="navbar">
         <div class="nav-container">
-            {{/*  <div class="logo">
-                Brand Logo
-            </div>  */}}
-
-            <!-- Brand -->
             <a class="logo" href="{{ .Site.Home.RelPermalink }}">
-              {{ if isset .Site.Params "mainmenulogo" }}
-              <img src="{{ .Site.Params.mainMenuLogo | relURL }}" alt="logo" width="30" height="24">
-              {{ end }}
+              <img src="site-logo/logo02.png" alt="logo">
               {{ .Site.Title }}
             </a>
             

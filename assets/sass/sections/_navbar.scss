@@ -3,7 +3,6 @@
     background-color: var(--white-dark);
     background-color: #fff;
     color: var(--black);
-    padding: 1rem;
     position: relative;
 
     &::after {
@@ -29,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: inherit;
+    // height: 100%;
 }
 
 .logo {
@@ -43,10 +43,10 @@
 
     padding: 0rem 0.5rem;
 
-    &:hover {
-        background-color: var(--secondary);
-        border-radius: 0.3rem;
-    }
+    // &:hover {
+    //     background-color: var(--secondary);
+    //     border-radius: 0.3rem;
+    // }
 
     & > img {
         height: 50px;
@@ -81,7 +81,8 @@
 }
 
 .nav-links li {
-    padding:  0.5rem;
+    padding: 1rem 0.2rem;
+    // padding:  0.5rem;
 }
 
 .nav-links a {
@@ -94,13 +95,12 @@
     // font-weight: bold; // Reserve space for bold font always
 }
 
-.nav-links a:hover {
-    background-color: var(--secondary);
-    border-radius: 0.3rem;
-    // font-weight: bold; 
-    color: #ffffff; // <-- change font color to white
-    
-}
+// .nav-links a:hover {
+//     // background-color: var(--secondary);
+//     // border-radius: 0.3rem;
+//     // font-weight: bold; 
+//     color: #ffffff; // <-- change font color to white
+// }
 
 #nav-toggle {
     display: none;

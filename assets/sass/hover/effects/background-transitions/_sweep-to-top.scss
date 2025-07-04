@@ -24,7 +24,7 @@
 	&:hover,
 	&:focus,
 	&:active {
-		color: white;
+		// color: white;
 
 		&:before {
 			@include prefixed(transform, scaleY(1));

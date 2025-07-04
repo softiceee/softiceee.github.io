@@ -3,7 +3,7 @@
 	@include hacks();
 	position: relative;
 	@include prefixed(transition-property, color);
-	@include prefixed(transition-duration, $mediumDuration);
+	@include prefixed(transition-duration, $fastDuration);
 
 	&:before {
 		content: "";
@@ -17,7 +17,7 @@
 		@include prefixed(transform, scaleY(0));
 		@include prefixed(transform-origin, 50% 100%);
 		@include prefixed(transition-property, transform);
-		@include prefixed(transition-duration, $mediumDuration);
+		@include prefixed(transition-duration, $fastDuration);
 		@include prefixed(transition-timing-function, ease-out);
 	}
 

@@ -37,7 +37,7 @@ footer {
   }
 }
 
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: var(--breakpoint-mobile)) {
   .footer-container {
     flex-direction: column; 
     text-align: center; 

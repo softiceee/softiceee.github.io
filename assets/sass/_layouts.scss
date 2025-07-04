@@ -1,5 +1,5 @@
 .container-base {
-    max-width: $max-width;
+    max-width: var(--max-width);
     margin: 0 auto;
     padding: 20px 20px;
 
@@ -62,7 +62,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: var(--breakpoint-mobile)) {
     section {
         padding: var(--spacing-mobile);
     }
@@ -141,7 +141,7 @@ section {
     // box-shadow: 0 12px 25px var(--shadow-color);
 //}
 
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: var(--breakpoint-mobile)) {
     .row, .row.reverse {
         flex-direction: column;
         gap: var(--spacing-mobile);

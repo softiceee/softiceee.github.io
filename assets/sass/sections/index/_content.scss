@@ -62,9 +62,47 @@
     }
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Adjust as needed for spacing between your columns */
+  max-width: 1200px; /* Or whatever max-width your content should have */
+  margin: 0 auto; /* Centers the grid container */
+  // padding: 20px; /* Add some padding around the container if necessary */
+}
 
+.grid-item {
+  // padding: 10px;
+  /* This is the key change for centering content within each item */
+  text-align: left;
+  /* Optional: You can also use flexbox inside the grid item if you need more complex vertical alignment or distribution */
+  /* display: flex; */
+  /* flex-direction: column; */
+  // align-items: left;
+  display: flex; /* Make the grid item a flex container */
+  flex-direction: column; /* Stack children vertically */
+  /* Optional: Control how remaining space is distributed */
+  justify-content: flex-start;
+}
 
+.grid-item h4 {
+  font-size: 1.5em; /* Adjust font size as needed */
+  min-height: 3em;
+  // margin-top: 0;
+  // margin-bottom: 10px;
+}
 
+.grid-item p {
+  font-size: 1.2em; /* Adjust font size as needed */
+  color: var(--black-light);
+}
+
+/* Optional: Media queries for responsiveness (same as before) */
+@media (max-width: var(--breakpoint-mobile)) {
+  .grid-container {
+    grid-template-columns: 1fr; /* 2 columns on medium screens */
+  }
+}
 
 
 

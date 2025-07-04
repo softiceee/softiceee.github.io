@@ -124,7 +124,7 @@ button {
     
 
     &:hover {
-        transform: translateY(-4px);
+        // transform: translateY(-4px);
         box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
         border-color: rgba(255, 255, 255, 0.3);
     }
@@ -136,7 +136,7 @@ button {
         right: 4px;
         width: 60px;
         height: 60px;
-        background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.1)); // change colors
+        background: var(--accent-lighter);
         border-radius: 0 16px 0 60px;
         transition: all 0.3s ease;
     }
@@ -144,7 +144,7 @@ button {
     &:hover::before {
         width: 80px;
         height: 80px;
-        background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15)); // change colors
+        background: var(--accent-light);
     }
 }
 

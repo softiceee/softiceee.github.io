@@ -29,14 +29,14 @@
     }
     
     summary:hover {
-      // background-color: $primary;
-      // border: 0.1px solid rgba($primary, 0.3);
-      box-shadow: 5px 5px 5px rgba($primary, 0.3);
+      // background-color: var(--primary);
+      // border: 0.1px solid var(--primary);
+      box-shadow: 5px 5px 5px var(--primary--lighter);
       transition-property: color;
       transition-duration: 0.3s;
       color: #ffac00;
     
-      // background-color: rgba($accent, 0.3);
+      // background-color: var(--accent);
       // transform: translateX(-5px);
       
 

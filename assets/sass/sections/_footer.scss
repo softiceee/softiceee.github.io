@@ -1,7 +1,8 @@
 footer {
   padding: 20px 0;
   margin-top: 40px;
-  background-color: #ffe100;
+  background-color: var(--accent);
+  font-size: 1rem;
 }
 
 .footer-container {
@@ -15,7 +16,7 @@ footer {
 
 .footer-text {
   margin: 0;
-  color: var(--title-accent);
+  color: var(--black-light);
   flex-shrink: 0;
 }
 
@@ -33,7 +34,7 @@ footer {
   }
   & a {
     text-decoration: none;
-    color: var(--title-accent);
+    color: var(--black-light);
   }
 }
 

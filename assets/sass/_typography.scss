@@ -30,7 +30,7 @@ body {
 
 p {
   font-size: 1.3em;
-  color: var(--title-black);
+  color: var(--black);
   line-height: 1.5;
   margin: 6pt;
 
@@ -41,7 +41,7 @@ p {
 
 // page title h1
 h1 {
-  color: var(--title-black);  
+  color: var(--black);  
   font-size: var(--size-h1);
   font-weight: 700;
   margin-bottom: var(--spacing-tablet);
@@ -53,7 +53,7 @@ h1 {
 
 h1 + p {
   font-size: var(--size-h1-p);
-  color: var(--title-accent);
+  color: var(--black-light);
   font-weight: 400;
   
 }
@@ -75,7 +75,7 @@ h1 + p {
 
 
 div.section-title > h2 {
-  color: var(--title-black);
+  color: var(--black);
   font-size: var(--size-h2);
   font-weight: bold;
   position: relative;
@@ -84,7 +84,7 @@ div.section-title > h2 {
 
 h2 + p {
   font-size: 1.6em;
-  color: var(--title-accent);
+  color: var(--black-light);
 }
 
 div.section-title > h2 {
@@ -96,7 +96,7 @@ div.section-title > h2 {
       transform: translateX(-50%);
       width: 120px;
       height: 4px;
-      background-color: var(--title-black);
+      background-color: var(--black);
       border-radius: 2px;
     }
 }
@@ -114,7 +114,7 @@ div.section-title > h2 {
 
 // speaking title h3
 h3 {
-  color: var(--title-black);  
+  color: var(--black);  
   font-size: var(--size-h3);
   font-weight: bold;
   // margin-top: var(--spacing-mobile);
@@ -125,18 +125,18 @@ h3 {
 
 h3 + p {
   font-size: 1.2em;
-  color: var(--title-accent);
+  color: var(--black-light);
 }
 
 h3 + ul li {
   font-size: 1.2em;
-  color: var(--title-accent);
+  color: var(--black-light);
   margin-bottom: var(--spacing-mobile);
 }
 
 // detail title h4
 h4 {
-  color: var(--title-black);  
+  color: var(--black);  
   font-size: var(--size-h4);
   margin-bottom: var(--spacing-tablet);
   position: relative;
@@ -146,12 +146,12 @@ h4 {
 
 h4 + p {
   font-size: 1em;
-  color: var(--title-accent);
+  color: var(--black-light);
 }
 
 // optional title h5
 h5 {
-  color: var(--title-accent);  
+  color: var(--black-light);  
   font-size: var(--size-h5);
   margin-bottom: var(--spacing-tablet);
   position: relative;
@@ -160,7 +160,7 @@ h5 {
 
 h5 + p {
   font-size: 1em;
-  color: var(--title-accent);
+  color: var(--black-light);
 }
 
 @media (max-width: var(--breakpoint-mobile)) {
@@ -198,7 +198,7 @@ h5 + p {
 //     left: 0;
 //     width: 0;
 //     height: 3px;
-//     background-color: var(--title-black);
+//     background-color: var(--black);
 //     transition: width var(--transition-speed);
 // }
 

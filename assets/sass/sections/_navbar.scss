@@ -1,8 +1,23 @@
 /* Navigation container */
 .navbar {
-    background-color: var(--background-white);
-    color: var(--title-black);
+    background-color: var(--white-dark);
+    color: var(--black);
     padding: 1rem;
+    position: relative;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%; transform: translateX(-50%);
+        right: 0;
+        bottom: -15px; // Place it just below the navbar
+        height: 15px;
+        width: 100vw; // Fill the whole viewport width
+        background-color: var(--accent-light); // Change to your desired color
+        // background: linear-gradient(to top, var(--primary-lighter), var(--primary));
+        z-index: 10;
+    }
 }
 
 .nav-container {
@@ -12,12 +27,13 @@
     // gap: 1rem;
     justify-content: space-between;
     align-items: center;
+    background-color: inherit;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--title-black);
+    color: var(--black);
     text-decoration: none;
 
     display: flex;
@@ -27,7 +43,7 @@
     padding: 0rem 0.5rem;
 
     &:hover {
-        background-color: $primary;
+        background-color: var(--primary);
         border-radius: 0.3rem;
     }
 
@@ -51,13 +67,15 @@
     position: absolute;
     width: 100%;
     height: 5px;
-    background-color: var(--title-black);
-    box-shadow: 0 10px 0 var(--title-black), 0 20px 0 var(--title-black);
+    background-color: var(--black);
+    box-shadow: 0 10px 0 var(--black), 0 20px 0 var(--black);
 }
 
 .nav-links {
     display: flex;
     list-style: none;
+    background-color: inherit;
+    
 }
 
 .nav-links li {
@@ -66,7 +84,7 @@
 
 .nav-links a {
     // color: white;
-    color: var(--title-black);
+    color: var(--black);
     text-decoration: none;
     // transition: color 0.3s ease;
     padding: 0.4rem 0.4rem;
@@ -100,11 +118,11 @@
     .nav-links {
         position: fixed;
         top: 0;
-        right: -70%;
-        width: 70%;
+        right: -50%;
+        width: 50%;
         height: 100vh;
-        background-color: var(--background-white);
         flex-direction: column;
+        // background-color: var(--background-white);
         padding-top: 60px;
         transition: right 0.3s ease;
         z-index: 1;

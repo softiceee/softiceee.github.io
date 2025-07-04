@@ -1,5 +1,5 @@
 .container-base {
-    max-width: $max-width;
+    max-width: var(--max-width);
     margin: 0 auto;
     padding: 20px 20px;
 
@@ -62,7 +62,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
 }
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: var(--breakpoint-mobile)) {
     section {
         padding: var(--spacing-mobile);
     }
@@ -71,7 +71,7 @@ section {
 .row {
     display: flex;
     flex-direction: row;
-    margin-bottom: var(--spacing-tablet);
+    // margin-bottom: var(--spacing-tablet);
     gap: var(--spacing-tablet);
     align-items: center;
     // max-width: 100%;
@@ -90,30 +90,9 @@ section {
     align-items: center;
 }
 
-.hero-content {
-    // padding: var(--spacing-tablet);
-    flex: 1;
-    padding: 40px;
-}
 
-.hero-image {
-    // padding: 40px;
-}
 
-.hero-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px var(--shadow-color);
-    // transition: transform var(--transition-speed), box-shadow var(--transition-speed);
-}
-
-.hero-image:hover img {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px var(--shadow-color);
-}
-
-.content-area, .image-area, .hero-image {
+.content-area, .image-area {
     flex: 1;
     // transition: transform var(--transition-speed), opacity var(--transition-speed);
 }
@@ -132,16 +111,16 @@ section {
     width: 100%;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 8px 20px var(--shadow-color);
+    // box-shadow: 0 8px 20px var(--shadow-color);
     // transition: transform var(--transition-speed), box-shadow var(--transition-speed);
 }
 
-.image-area:hover img {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px var(--shadow-color);
-}
+//.image-area:hover img {
+    // transform: translateY(-5px);
+    // box-shadow: 0 12px 25px var(--shadow-color);
+//}
 
-@media (max-width: $breakpoint-mobile) {
+@media (max-width: var(--breakpoint-mobile)) {
     .row, .row.reverse {
         flex-direction: column;
         gap: var(--spacing-mobile);

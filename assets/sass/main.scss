@@ -1,5 +1,6 @@
-// Reset scss
+// Exernal scss
 @import "_reset";
+@import "hover/hover.scss";
 
 // Bootstrap scss
 // @import "_bootstrap.scss";
@@ -8,6 +9,7 @@
 @import "_variables";
 @import "_layouts";
 @import "_typography";
+@import "_codicon";
 
 // SORTIEREN;
 @import "icon_block";
@@ -15,10 +17,11 @@
 // Sections scss
 @import "sections/_team";
 @import "sections/_navigation-cards";
-// @import "sections/_navbar";
+@import "sections/_navbar";
 @import "sections/_footer";
 @import "sections/_accordion";
-@import "sections/_timeline_datenwelten";
+// @import "sections/_timeline_datenwelten";
+// @import "sections/_timeline";
+@import "sections/_timeline_only";
 @import "sections/_publications";
-
-@import "_navbar";
+@import "sections/_hero";

@@ -46,15 +46,19 @@
   }
 
   &:nth-of-type(odd)::after {
-    background: $secondary; // Replace with your desired color
+    background: var(--secondary); // Replace with your desired color
   }
 
   &:nth-of-type(even)::after {
-    background: $accent; // Replace with your desired color
+    background: var(--accent); // Replace with your desired color
   }
 
   &.right::after {
     left: calc(-0.5rem - 2px);;
+  }
+
+  &.no-color::after {
+    background: #fff;
   }
 
   &::before {
@@ -112,7 +116,7 @@
 
   &.left > img {
     right: 2rem;
-    background: $secondary; // Replace with your desired color
+    background: var(--secondary); // Replace with your desired color
 
     &.second {
         right: 5.5rem;
@@ -121,7 +125,7 @@
 
   &.right > img {
     left: 2rem;
-    background: $accent; // Replace with your desired color
+    background: var(--accent); // Replace with your desired color
 
     &.second {
         left: 5.5rem;

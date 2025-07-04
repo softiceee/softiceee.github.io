@@ -46,6 +46,127 @@ draft: false
         <h2>Inhalte der Datenwelten</h2>
         <p>Winter / Sommer Zyklus.</p>
     </div>
+    
+
+
+ <div class="py-2">
+    <div class="container">
+        <div class="row align-items-center mb-2">
+            <div class="col-md-6 text-center">
+                <h2 class="fw-bolder mb-2">Im Wintersemester</h3>
+                <h5 class="text-muted">DATENWELTEN 1</h5>
+            </div>
+            <div class="col-md-6 text-center">
+                <h2 class="fw-bolder mb-2">Im Sommersemester</h3>
+                <h5 class="text-muted">DATENWELTEN 2</h5>
+            </div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-md-6">
+                <p class="fs-5">
+                    Die Vorlesungsreihe beleuchtet Grundlagen von Statistik, Datenanalyse und Machine Learning aus einer technischen Perspektive.
+                    Das interdisziplinäre Team setzt sich aus Dozierenden der Informatik und den Sozialwissenschaften zusammen.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p class="fs-5">
+                    Im Sommersemester beleuchtet die Vorlesungsreihe Datenwelten 2 gesellschaftliche, politische und wirtschaftliche Zusammenhänge durch die zunehmende Datafizierung und Digitalisierung aus unterschiedlichen Perspektiven.
+                </p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/debug-disconnect.svg" alt="debug-disconnect" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Funktionsweise der informationstechnischen Datenökosysteme, die in weiten Teilen unseren Alltag (mit-)gestalten
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/cloud-upload.svg" alt="cloud-upload" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Das technische und soziale Zusammenspiel dieser Systeme bei der Erhebung, Aufbewahrung und Nutzen von Daten
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/graph-scatter.svg" alt="graph-scatter" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Einfache statistische und visualisierende Verfahren zur explorativen Analyse von Daten
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/debug-alt.svg" alt="debug-alt" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Grundlegende Algorithmen des Supervised and Unsupervised Machine Learning (Classification, Regression, Clustering)
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/combine.svg" alt="combine" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Elementare Einführung in Neuronale Netze und ihre Anwendungen in der Bild- und Textverarbeitung (Large Language Models)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/telescope.svg" alt="telescope" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Überblick über den aktuellen Stand der Datennutzung und -anwendung in verschiedenen gesellschaftlichen Bereichen wie Politik, Wissenschaft, Bildung und Wirtschaft
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/organization.svg" alt="organization" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Kritische Auseinandersetzung mit diesen Datenanwendungen und ihren gesellschaftlichen und ethischen Herausforderungen wie Digital Divide, Bias & Diskriminierung
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/device-camera.svg" alt="device-camera" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Auswirkung der zunehmenden Digitalisierung und Datafizierung auf die politische Öffentlichkeit und journalistische Arbeit
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/book.svg" alt="book" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Verschiedene Fragestellungen der Digital Humanities und deren Entwicklung im Kontext von Datafizierung und Artificial Intelligence
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-2">
+                        <div class="col-auto">
+                            <img src="/icons/codicons/law.svg" alt="law" class="img-fluid" style="width: 1.5rem; height: 1.5rem;">
+                        </div>
+                        <div class="col">
+                            Möglichkeiten und Grenzen der rechtlichen (Datenschutz) und technischen (IT-Sicherheit) Regulierung von Datennutzung und deren Konsequenzen
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
 </section>
 
 
@@ -74,6 +195,88 @@ draft: false
         </a>
       </div>
 </section>
+
+<section>
+    <div class="section-title">
+        <h2>Vergangene Veranstaltungen</h2>
+        <p>Begleittext.</p>
+    </div>
+    <div class="row">
+        <img class="timeline-icon" src="/icons/codicons/book.svg" alt="book"> <p>Vorlesung</p>
+        <img class="timeline-icon" src="/icons/codicons/tools.svg" alt="tools"> <p>Übung</p>
+    </div>
+<div class="row example-centered">
+        <div>
+            <ul class="timeline timeline-centered">
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>Wintersemester 2021/2022</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <img src="/icons/codicons/book.svg" alt="book">
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <div class="timeline-info">
+                        <span>March 23, 2016</span>
+                    </div>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Event Title</h3>
+                        <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
+                            eu pede mollis pretium. Pellentesque ut neque. </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class="timeline">
+        <div class="container left">
+            <time>Wintersemester 2021/22</time>
+                <img src="/icons/codicons/book.svg" alt="book">
+                <!-- </a> -->
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2022</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container left">
+            <time>Wintersemester 2022/23</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2023</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            </div>
+        <div class="container left">
+            <time>Wintersemester 2023/24</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2024</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+                <div class="container left">
+            <time>Wintersemester 2024/25</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+        <div class="container right">
+            <time>Sommersemester 2025</time>
+            <img src="/icons/codicons/book.svg" alt="book">
+            <img class="second" src="/icons/codicons/tools.svg" alt="tools">
+            </div>
+    </div>
+
+
+</section>
+
+
+
 
 <section>
     <div class="section-title">

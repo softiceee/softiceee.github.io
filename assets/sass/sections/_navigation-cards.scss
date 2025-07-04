@@ -7,13 +7,13 @@
 
 .navigation-card {
     
-    color: var(--title-black);
+    color: var(--black);
     transition: all var(--transition-speed) ease;
     border: none;
     border-radius: 15px;
     overflow: hidden;
     background: linear-gradient(145deg, #ffffff, #f3f3f3);
-    // background: $primary;
+    // background: var(--primary);
     box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
     position: relative;
     text-align: center;
@@ -39,7 +39,7 @@
     &:hover {
         transform: translateY(-10px);
         box-shadow: 8px 8px 20px #d1d1d1, -8px -8px 20px #ffffff;
-        background: $secondary;
+        background: var(--secondary);
     }
 
     &>div {

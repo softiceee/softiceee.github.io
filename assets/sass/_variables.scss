@@ -1,41 +1,42 @@
-// Default variable overrides
+// Global CSS Variables
 
 :root {
-  --title-black: #333;
-  --title-accent: #666;
+  // Colors
+  // --title-black: #333;
+  // --title-accent: #666;
   --shadow-color: rgba(0, 0, 0, 0.1);
-  --transition-speed: 0.5s;
+
+  --black-full: #000;
+  --black: #333;
+  --black-light: #666;
+  --black-lighter: #999;
+
+  --white: #fdfdfd;
+  --white-dark: #fafafa;
+
+
+  --background-white: #f8f9fa;
+
+
+  --primary: rgba(0, 183, 255, 1);;
+  --primary-light: rgba(0, 183, 255, 0.8);
+  --primary-lighter: rgba(0, 183, 255, 0.5);
+
+  --secondary: rgba(255, 175, 0, 1);
+
+  --accent: rgba(255, 225, 0, 1);
+  --accent-light: rgba(255, 225, 0, 0.5);
+
+  // Spacing
   --spacing-mobile: 0.5rem;
   --spacing-tablet: 1rem;
   --spacing-desktop: 1.5rem;
   --border-radius-desktop: 15px;
+  --max-width: 1200px;
+
+  // Transitions
+  --transition-speed: 0.5s;
+
+  // Breakpoints
+  --breakpoint-mobile: 768px;
 }
-
-// scss-docs-start theme-color-variables
-$primary:       #0d6efd;
-$secondary:     #6c757d;
-$success:       #198754;
-$info:          #0dcaf0;
-$warning:       #ffc107;
-$danger:        #dc3545;
-$light:         #f8f9fa;
-$dark:          #212529;
-// scss-docs-end theme-color-variables
-
-// Your variable overrides
-$body-bg: #fff;
-$body-color: #212529;
-
-$primary: #c2c747;
-$secondary: #e68935;
-$accent: #74c5c9;
-
-$background_white: #f8f9fa;
-
-
-
-$breakpoint-mobile: 768px;
-$breakpoint-tablet: 1024px;
-
-$max-width: 1200px;
-

@@ -6,15 +6,9 @@
 
   <nav class="navbar">
         <div class="nav-container">
-            {{/*  <div class="logo">
-                Brand Logo
-            </div>  */}}
-
-            <!-- Brand -->
+            
             <a class="logo" href="{{ .Site.Home.RelPermalink }}">
-              {{ if isset .Site.Params "mainmenulogo" }}
-              <img src="{{ .Site.Params.mainMenuLogo | relURL }}" alt="logo" width="30" height="24">
-              {{ end }}
+              <img src="site-logo/logo02.png" alt="logo">
               {{ .Site.Title }}
             </a>
             
@@ -34,13 +28,13 @@
                 {{- $active = or $active (and (eq .Name ($section | humanize)) (eq $current.Section $section)) -}}
                 {{/*  {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors")) -}}  */}}
                 
-                <li><a href="{{ .URL | relLangURL }}"{{ with .Title }} title='{{ . }}'{{ end }}>{{ .Name }}</a></li>
+                <li class="hvr-sweep-to-top"><a href="{{ .URL | relLangURL }}"{{ with .Title }} title='{{ . }}'{{ end }}>{{ .Name }}</a></li>
                 
                 {{ end -}}
 
                 {{/*   Gemini Attempt at Language Switcher */}}
                 {{ if hugo.IsMultilingual -}}
-                <li>
+                <li class="hvr-sweep-to-top">
                   {{ $currentLang := .Site.Language.Lang }}
                   {{ $translation := false }}
 

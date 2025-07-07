@@ -1,0 +1,66 @@
+.datenwelten-movie {
+    width: 100%;
+    border-radius: 12px;
+    height: 373px;
+    // padding: 20px;
+    margin: 20px;
+}
+
+
+.starter-content-area {
+    flex: 1;
+    padding: 20px;
+}
+
+.starter-image-area {
+    flex: 1.2;
+}
+
+.starter-image-area img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    // box-shadow: 0 8px 20px var(--shadow-color);
+    // transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+
+.grid-datenwelten-inhalte {
+    // display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    align-items: center;
+    row-gap: 0.5em;
+    // gap: 20px;
+    // width: 500px;
+}
+
+
+.dw-content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.dw-content-card {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: var(--accent-lighter);
+}
+
+.dw-content-card .pretitle {
+    font-size: var(--size-h5);
+    color: var(--black-light);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    text-align: right;
+}
+
+.dw-content-card h3 {
+    color: var(--black);
+    font-size: var(--size-h3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}

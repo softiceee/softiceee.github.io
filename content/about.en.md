@@ -137,7 +137,7 @@ draft: false
       <h2>Unser Team</h2>
       <p>Alles ist gut, solange du wild bist.</p>
   </div>
-    <div class="column">
+  <div class="grid team">
       {{< team-card member="0" >}}
       {{< team-card member="1" >}}
       {{< team-card member="2" >}}

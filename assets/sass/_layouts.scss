@@ -64,8 +64,10 @@ img {
 section {
     padding: var(--spacing-desktop);
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 @media (max-width: var(--breakpoint-mobile)) {
     section {
@@ -95,6 +97,16 @@ section {
     align-items: center;
 }
 
+.grid {
+    display: grid;
+}
+
+.team {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    // margin: 0 auto;
+}
 
 
 .content-area, .image-area {

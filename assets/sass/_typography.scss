@@ -159,10 +159,10 @@ h5 {
   display: inline-block;
 }
 
-h5 + p {
-  font-size: 1em;
-  color: var(--black-light);
-}
+// h5 + p {
+//   font-size: 1em;
+//   color: var(--black-light);
+// }
 
 @media (max-width: var(--breakpoint-mobile)) {
   h1 {

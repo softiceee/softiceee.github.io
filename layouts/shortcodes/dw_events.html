@@ -1,0 +1,7 @@
+{{ $dw_eventIndex := .Get "dw_event" | int }}
+{{ $dw_event := index site.Data.dw_events $dw_eventIndex }}
+<p>
+    <a href="{{ $dw_event.link }}" target="_blank">
+        <i class="codicon {{ $dw_event.icon }}"></i> {{ $dw_event.title }}
+    </a>
+</p>

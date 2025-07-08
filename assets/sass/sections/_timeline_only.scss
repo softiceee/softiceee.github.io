@@ -26,9 +26,10 @@
     /*----- TIMELINE INFO -----*/
 
     .timeline-info {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 700;
-        // letter-spacing: 3px;
+        color: var(--primary-dark);
+        letter-spacing: 3px;
         margin: 0 0 .5em 0;
         text-transform: uppercase;
         white-space: nowrap;
@@ -40,7 +41,7 @@
         top: 0; bottom: 0; left: 0;
         width: 15px;
         &:before {
-            background: var(--primary);
+            background: var(--primary-dark);
             border: 3px solid transparent;
             border-radius: 100%;
             content: "";

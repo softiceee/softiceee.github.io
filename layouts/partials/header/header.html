@@ -32,7 +32,7 @@
                   <a href="{{ .URL | relLangURL }}" 
                     {{- if hasPrefix .URL "http" }} target="_blank" rel="noopener noreferrer"{{ end -}}
                     {{ with .Title }} title='{{ . }}'{{ end }}>
-                    {{ .Pre }}{{ .Name }}
+                    {{ .Name }} {{ .Pre }}
                   </a>
                 </li>
                 

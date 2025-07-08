@@ -22,7 +22,8 @@ weight = 50
 name = "Lehre-Navi"
 url = "https://www.uni-hamburg.de/lehre-navi/lehrende.html"
 weight = 60
-pre = "<i class='codicon codicon-triangle-right'></i>"
+# pre = "<i class='codicon codicon-triangle-right'></i>"
+pre = "<i class='codicon codicon-arrow-right' style='transform: rotate(-45deg); display: inline-block; text-shadow: 0 0 1px currentColor, 0 0 1px currentColor;'></i> "
 
 [[main]]
 name = "About"

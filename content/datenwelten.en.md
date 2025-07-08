@@ -208,6 +208,7 @@ draft: false
 </section>
 
 
+
 <section>
     <div class="section-title">
         <h2>Vergangene Veranstaltungen</h2>

@@ -28,13 +28,13 @@
                 {{- $active = or $active (and (eq .Name ($section | humanize)) (eq $current.Section $section)) -}}
                 {{/*  {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors")) -}}  */}}
                 
-                <li class="hvr-sweep-to-top"><a href="{{ .URL | relLangURL }}"{{ with .Title }} title='{{ . }}'{{ end }}>{{ .Name }}</a></li>
+                <li><a href="{{ .URL | relLangURL }}"{{ with .Title }} title='{{ . }}'{{ end }}>{{ .Pre }}{{ .Name }}</a></li>
                 
                 {{ end -}}
 
                 {{/*   Gemini Attempt at Language Switcher */}}
                 {{ if hugo.IsMultilingual -}}
-                <li class="hvr-sweep-to-top">
+                <li>
                   {{ $currentLang := .Site.Language.Lang }}
                   {{ $translation := false }}
 

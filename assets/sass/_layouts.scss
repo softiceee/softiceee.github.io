@@ -40,7 +40,7 @@
     display: block;
     margin: 0 auto;
     box-sizing: border-box;
-    height: 80px;
+    height: 60px;
     border-radius: 0px;
     padding: 0 30px;
 }
@@ -119,6 +119,8 @@ section {
 }
 
 
+
+
 .content-accordion {
     flex: 2;
 }
@@ -126,6 +128,13 @@ section {
 .content-area {
     // padding: var(--spacing-tablet);
     padding: 20px;
+}
+
+.content-text u {
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px; 
 }
 
 .image-area img {
@@ -169,7 +178,14 @@ section {
     .image-area {
         order: 1;
     }
+
+
 }
+.text-decoration {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
 
 /* Show hover text on image hover */
 .hover-image-link {

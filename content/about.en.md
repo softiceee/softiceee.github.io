@@ -19,6 +19,14 @@ draft: false
       Das Team des DDLitLab besteht aus Expert:innen verschiedener Disziplinen, die sich mit digitalen Lehr- und Lernformaten, Datenkompetenz und digitaler Didaktik beschäftigen. Gemeinsam arbeiten wir daran, innovative und zukunftsfähige Lehrmethoden zu entwickeln sowie digitale Kompetenzen und kritische Datenpraktikuen in der Hochschulbildung zu fördern.
     </p>
     </div>
+    <div class="row hero-partners">
+        <a href="https://www.uni-hamburg.de/">
+          <img src="/svg/uhh.svg" alt="UHH Logo" class="logo-bigger">
+        </a>
+        <a href="https://stiftung-hochschullehre.de/">
+          <img src="/svg/stil_2.svg" alt="Stil Logo" class="logo-bigger">
+        </a>
+      </div>
   </section>
 
 <section>

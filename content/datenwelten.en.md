@@ -2,6 +2,7 @@
 title: "Ringvorlesung Datenwelten"
 draft: false
 ---
+<div class="background-pattern">
 
 <section>
     <div class="section-title">
@@ -45,12 +46,13 @@ draft: false
 
 
 <section>
+    <div class="section-content">
     <div class="section-title">
         <h2>Inhalte der Datenwelten</h2>
         <p>Winter / Sommer Zyklus.</p>
     </div>
     <div class="dw-content">
-        <div class="dw-content-card">
+        <div class="dw-content-card dw-glass">
             <p class="dw-pretitle">Im Wintersemester</p>
             <h3>Datenwelten 1</h3>
             <p>Im Wintersemester legt die Vorlesungsreihe den Fokus auf Grundlagen von Statistik, Datenanalyse und Machine Learning aus einer technischen Perspektive. Das interdisziplinäre Team setzt sich aus Dozierenden der Informatik und den Sozialwissenschaften zusammen.</p>
@@ -85,6 +87,9 @@ draft: false
             </div>
         </div>
     </div>
+
+</div>
+</section>
 
 
 
@@ -256,3 +261,5 @@ draft: false
         </div>
     </div>
 </section>
+
+</div>

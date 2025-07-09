@@ -1,16 +1,48 @@
-.container-base {
+// you can change these three
+$c: gainsboro; // grid lines
+$d: 1em; // grid cell size
+$l: 0.2px; // line thickness
+
+// computed value, don't change
+$o: .5*$l;
+
+.background-pattern {
+	background: 
+		/* horizontal and vertical lines */
+		conic-gradient(from 90deg at $l $l, 
+				#0000 25%, $c 0%) 
+			#{-1*$o -1*$o}/ #{$d $d}, 
+		/* main diagonal */
+		linear-gradient(45deg, 
+				#0000 calc(50% + -1*#{$o}), 
+				$c 0 calc(50% + #{$o}), #0000 0) 0 0/ #{2*$d 2*$d}, 
+		/* secondary diagonal */
+		linear-gradient(-45deg, 
+				#0000 calc(50% + -1*#{$o}), 
+				$c 0 calc(50% + #{$o}), #0000 0) 0 0/ #{2*$d 2*$d}
+}
+
+
+
+section {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 20px 20px;
+}
 
+.body {
     box-sizing: border-box;
-    
-    // width: 100%;
-    // height: 100%;
-
     display: flex;
     flex-direction: column;
-    // min-height: 60vh;
+
+}
+
+.container-base {
+    // max-width: var(--max-width);
+    // margin: 0 auto;
+    // padding: 20px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-grey {
@@ -188,29 +220,31 @@ section {
 
 
 /* Show hover text on image hover */
-.hover-image-link {
-  position: relative;
-  display: block; // changed from inline-block
-  width: 100%;    // ensures it fills the container
-}
+// Hover Effect for Images with Text Overlay (Lehre-Navi)
+// kann raus, falls nicht benutzt beim Lehre-Navi
+// .hover-image-link {
+//   position: relative;
+//   display: block; // changed from inline-block
+//   width: 100%;    // ensures it fills the container
+// }
 
-.hover-image-link .hover-text {
-  display: none;
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: translateX(-50%);
-  background: rgba(0,0,0,0.8);
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 4px;
-  white-space: nowrap;
-  margin-top: 8px;
-  z-index: 10;
-  font-size: 0.95em;
-}
+// .hover-image-link .hover-text {
+//   display: none;
+//   position: absolute;
+//   left: 50%;
+//   top: 20%;
+//   transform: translateX(-50%);
+//   background: rgba(0,0,0,0.8);
+//   color: #fff;
+//   padding: 6px 12px;
+//   border-radius: 4px;
+//   white-space: nowrap;
+//   margin-top: 8px;
+//   z-index: 10;
+//   font-size: 0.95em;
+// }
 
-.hover-image-link:hover .hover-text,
-.hover-image-link:focus .hover-text {
-  display: block;
-}
+// .hover-image-link:hover .hover-text,
+// .hover-image-link:focus .hover-text {
+//   display: block;
+// }

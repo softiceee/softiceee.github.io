@@ -1,10 +1,30 @@
-- title: "GKI-Kompetenzrahmen"
-  subtitle: 'Work in Progress'
-  authors: "Kleinen-von Königslöw, Katharina; Schnapp, Kai-Uwe"
-  link: "#"
-  date: "Unpublished"
-- title: '"ChatGPT and me"'
+- title: 'ChatGPT & me 2.0' 
+  subtitle: 'Eine Bestandsaufnahme im zweiten Jahr mit generativer KI an der Uni Hamburg' 
+  authors: "Bartels, Freise, Hartel, Preiß" 
+  link: "https://doi.org/10.25592/uhhfdm.15968" 
+  date: "2024 Sep"
+- title: 'ChatGPT and me'
   subtitle: 'Erste Ergebnisse der quantitativen Auswertung einer Umfrage über die Lebensrealität mit generativer KI an der Universität Hamburg'
-  authors: " Preiß, Jennifer; Bartels, Mareike; Niemann-Lenz, Julia; Pawlowski, Julia; Schnapp, Kai-Uwe"
+  authors: " Preiß, Bartels, Niemann-Lenz, Pawlowski, Schnapp"
   link: "https://doi.org/10.25592/uhhfdm.13402"
   date: "2023 Sep"
+- title: 'Datenwelten' 
+  subtitle: 'Interdisziplinäre hochschulweite Ringvorlesungen zum Erwerb von Data Literacy' 
+  authors: "Leible, Kreinsen, Scharfenberg, Niemann-Lenz, Schnapp" 
+  link: "https://www.datenkompetent.org/posts/ring_vl_datenwelten/ring_datenwelt.html" 
+  date: "2023"
+- title: 'Early Education for Data Management Decisions' 
+  subtitle: 'Ergebnisse der Teilnehmendenbefragung' 
+  authors: "Jacob, Neumann, Schulz" 
+  link: "https://doi.org/10.25592/uhhfdm.9844" 
+  date: "2023"
+- title: 'Die Rolle der Informatik in der inter- und transdisziplinären Data Literacy Education' 
+  subtitle: 'Eine empirische Studie der Fachperspektiven von Hochschullehrerinnen und Hochschullehrern zu Data Literacy' 
+  authors: "Niemann-Lenz, Kreinsen, Berger" 
+  link: "https://doi.org/10.18420/inf2022_121" 
+  date: "2022"
+- title: 'A Snapshot of Essential IT-Related Challenges of Universities' 
+  subtitle: 'A Literature Analysis: What drives IT in higher education today and tomorrow? ' 
+  authors: "Leible, Ludzay" 
+  link: "https://doi.org/10.18420/inf2022_117 " 
+  date: "2022" 

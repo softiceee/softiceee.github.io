@@ -1,13 +1,10 @@
 .navigation-row {
     gap: 50px;
     margin-top: 20px;
-
 }
 
 
-
 .navigation-card {
-    
     color: var(--black);
     transition: all var(--transition-speed) ease;
     border: none;
@@ -21,38 +18,20 @@
     text-decoration: none;
     padding: 20px;
     flex: 1;
-    
-    
-
     width: 280px;
     height: auto;
-
-    // width: 250px;
-    // height: 250px;
     p {
         font-size: 1.5rem;
         line-height: 140%;
         font-weight: 500;
-    
-        // text-transform: uppercase;
-        
     }
-    
-
     &:hover {
-        transform: translateY(-10px);
-        //box-shadow: 8px 8px 20px #d1d1d1, -8px -8px 20px #ffffff;
-        //background: var(--secondary);
+        // transform: translateY(-10px);
         box-shadow: 0 4px 18px 0 rgba(255, 175, 0, 0.50); 
-
-
-    
     }
-
-    &>div {
+    & > div {
         margin-bottom: 1rem;
-
-        &>img {
+        & > img {
             width: 32px;
             height: 32px;
             margin: 6pt auto;
@@ -61,8 +40,4 @@
 
 }
 
-// a.navigation-card {
-//     width: 200px;
-// }
 
-// other :hover example: https://uiverse.io/eslam-hany/nasty-zebra-54

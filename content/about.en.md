@@ -162,8 +162,10 @@ draft: false
   <div class="publication-column">
       {{< publication-card publication="0">}}
       {{< publication-card publication="1">}}
-      {{< publication-card publication="1">}}
-      {{< publication-card publication="1">}}
+      {{< publication-card publication="2">}}
+      {{< publication-card publication="3">}}
+      {{< publication-card publication="4">}}
+      {{< publication-card publication="5">}}
     </div>
 
   <div class="publication-button">

@@ -6,6 +6,6 @@ draft: false
 <section>
     <div class="section-title">
         <h2>Studi-Projekte</h2>
-        <p>Text.</p>
+        <p>Test</p>
     </div>
     </section>

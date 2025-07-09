@@ -2,7 +2,7 @@
 title: "Ringvorlesung Datenwelten"
 draft: false
 ---
-<div class="background-pattern">
+<!-- <div class="background-pattern"> -->
 
 <section>
     <div class="section-title">
@@ -262,4 +262,4 @@ draft: false
     </div>
 </section>
 
-</div>
+<!-- </div> -->

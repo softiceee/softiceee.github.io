@@ -7,7 +7,7 @@ draft: false
 <section>
     <div class="section-title">
         <h2>Ringvorlesung Datenwelten</h2>
-        <p>Daten verstehen, Zukunft gestalten.</p>
+        <p>Daten verstehen, Zukunft gestalten</p>
     </div>
     <div class="wide-image datenwelten-movie-container">
         <iframe class="datenwelten-movie" src='https://lecture2go.uni-hamburg.de/o/iframe/?obj=71206'  title='Video: Warum DATENWELTEN eine Vorlesung für Dich ist!' frameborder='0' allowfullscreen></iframe>

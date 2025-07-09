@@ -6,7 +6,7 @@ draft: false
 <section>
   <div class="section-title">
       <h2>Über uns</h2>
-      <p>Digital denken von Anfang an.</p>
+      <p>Digital denken von Anfang an</p>
   </div>
   <div class="wide-image">
       <img src="/images/team/_gruppenbild.jpg" alt="team picture">

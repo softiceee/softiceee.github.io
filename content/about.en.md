@@ -29,7 +29,7 @@ draft: false
       </div>
   </section>
 
-<section class="background-pattern">
+<section>
     <div class="section-title">
         <h2>Timeline</h2>
         <p>A journey through time.</p>

@@ -1,5 +1,10 @@
 - title: "Classification"
   icon: "test"
+- title: "Regression"
+- title: "Clustering"
+- title: "Neural Networks"
+- title: "Import"
+- title: "Tidy"
 
 
 

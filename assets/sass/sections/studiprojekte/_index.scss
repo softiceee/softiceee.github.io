@@ -1,0 +1,20 @@
+.grid-studiprojekte {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    max-width: 1200px; 
+    margin: 0 auto;
+
+    & .grid-item {
+        text-align: left;
+        display: flex; 
+        flex-direction: row;
+        justify-content: flex-start;
+        border: 1px;
+
+        & h3 {
+            font-size: 1.5em;
+            min-height: 3em;
+        }
+    }
+}

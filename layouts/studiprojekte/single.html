@@ -2,10 +2,23 @@
 
 <main>
   {{ .Content }}
-  <h1>{{ .Params.title }}</h1>
-    {{ .Params.text | markdownify }}
-    <a href="/studiprojekte/">Back to Projects</a>
-</main>
 
+  <section>
+    <div class="section-title">
+        <h2>{{ .Params.title }}</h2>
+        <p>{{ .Params.title_project }}</p>
+    </div>
     
+
+    <div class="wide-text">
+      {{ .Params.text | markdownify }}
+    </div>
+
+    <div class="nav-links">
+      <a href="/studiprojekte/">Zurück zu den Studiprojekten</a>
+    </div>
+
+    </section>
+</main>
+   
 {{ end }}

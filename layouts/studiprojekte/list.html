@@ -2,13 +2,16 @@
     <main>
     {{ .Content }}
 
+    <div class="grid-studiprojekte">
     {{ range .Pages }}
-        <div>
-            <h3><a href="{{ .Permalink }}">{{ .Params.id }}</a></h3>
-            <p>{{ .Params.students }}</p>
-            <p>{{ .Params.title }}</p>
-        </div>
+        <a href="{{ .Permalink }}" class="grid-item navigation-card">
+            <div>
+                <h3>{{ .Params.id }}</h3>
+                <p>{{ .Params.students }}</p>
+                <p>{{ .Params.title }}</p>
+            </div>
+        </a>
     {{ end }}
-
+    </div>
     </main>
 {{ end }}

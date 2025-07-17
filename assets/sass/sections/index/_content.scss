@@ -66,6 +66,16 @@
     display: grid;
 }
 
+.grid-about-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 0;
+    max-width: 1200px; 
+    margin: 0 auto; /* Centers the grid container */ 
+    text-align: justify;
+
+}
  
 
 .grid-lehre-navi {

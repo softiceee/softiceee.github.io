@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <main>
+    {{ .Content }}
+
+    {{ range .Pages }}
+        <div>
+            <h3><a href="{{ .Permalink }}">{{ .Params.id }}</a></h3>
+            <p>{{ .Params.students }}</p>
+            <p>{{ .Params.title }}</p>
+        </div>
+    {{ end }}
+
+    </main>
+{{ end }}

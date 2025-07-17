@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<main>
+  {{ .Content }}
+  <h1>{{ .Params.title }}</h1>
+    {{ .Params.text | markdownify }}
+    <a href="/studiprojekte/">Back to Projects</a>
+</main>
+
+    
+{{ end }}

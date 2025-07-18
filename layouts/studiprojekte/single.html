@@ -6,13 +6,29 @@
   <section>
     <div class="section-title">
         <h2>{{ .Params.title }}</h2>
-        <p>{{ .Params.title_project }}</p>
+        <p>Project: {{ .Params.title_short }}</p>
+    </div>
+
+    <div>
+      <p>Students: {{ .Params.students }}</p>
+      <p>Round: {{ .Params.round }}</p>
+      <p>Period: {{ .Params.period }}</p>
+      <p>Mentors: {{ .Params.mentor }}</p>
     </div>
     
+    <div class="wide-image datenwelten-movie-container">
+        <iframe class="datenwelten-movie" src='https://lecture2go.uni-hamburg.de/o/iframe/?obj={{ .Params.lecture2go }}'  title='{{ .Params.title }}' frameborder='0' allowfullscreen></iframe>
+    </div>
+
+    <h3>{{ .Params.title_project }}</h3>
 
     <div class="wide-text">
       {{ .Params.text | markdownify }}
     </div>
+
+    
+
+    
 
     <div class="nav-links">
       <a href="/studiprojekte/">Zurück zu den Studi-Projekten</a>

@@ -105,22 +105,23 @@ input[type="checkbox"] {
     user-select: none;
 }
 
+
 /* When checkbox A is checked, hide type-a items */
-#toggle-studiprojekte-1:checked ~ .grid-studiprojekte .filter-studiprojekte-1 {
-    display: flex;
+#toggle-studiprojekte-1:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-1 {
+    display: none;
 }
 
 /* When checkbox B is checked, hide type-b items */
-#toggle-studiprojekte-2:checked ~ .grid-studiprojekte .filter-studiprojekte-2 {
-    display: flex;
+#toggle-studiprojekte-2:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-2 {
+    display: none;
 }
 
-#toggle-studiprojekte-3:checked ~ .grid-studiprojekte .filter-studiprojekte-3 {
-    display: flex;
+#toggle-studiprojekte-3:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-3 {
+    display: none;
 }
 
 /* When checkbox B is checked, hide type-b items */
-#toggle-studiprojekte-4:checked ~ .grid-studiprojekte .filter-studiprojekte-4 {
-    display: flex;
+#toggle-studiprojekte-4:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-4 {
+    display: none;
 }
 

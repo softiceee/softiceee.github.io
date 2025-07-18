@@ -6,15 +6,121 @@
     margin: 0 auto;
 
     & .grid-item {
-        text-align: left;
+        display: none;
         display: flex; 
+        transition: all 0.3s ease;
+        text-align: left;
+        
         flex-direction: row;
         justify-content: flex-start;
         border: 1px;
 
         & h3 {
-            font-size: 1.5em;
-            min-height: 3em;
+            font-size: 1em;
+            // min-height: 3em;
+        }
+
+        & p {
+            font-size: 1em;
+            color: #666;
+            margin-top: 0.5em;
         }
     }
 }
+
+
+
+.controls {
+    max-width: 1200px; 
+    padding: 20px;
+    background: white;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Hide the actual checkboxes since they're positioned for CSS functionality */
+input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-wrapper {
+    position: relative;
+}
+
+/* Create custom checkbox appearance */
+.checkbox-wrapper::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+    background: white;
+    transition: all 0.2s ease;
+}
+
+/* Style when checkbox is checked */
+#toggle-studiprojekte-1:checked ~ .controls .checkbox-wrapper:nth-child(1)::before,
+#toggle-studiprojekte-2:checked ~ .controls .checkbox-wrapper:nth-child(2)::before,
+#toggle-studiprojekte-3:checked ~ .controls .checkbox-wrapper:nth-child(3)::before,
+#toggle-studiprojekte-4:checked ~ .controls .checkbox-wrapper:nth-child(4)::before {
+    background: #667eea;
+    border-color: #667eea;
+}
+
+/* Add checkmark */
+#toggle-studiprojekte-1:checked ~ .controls .checkbox-wrapper:nth-child(1)::after,
+#toggle-studiprojekte-2:checked ~ .controls .checkbox-wrapper:nth-child(2)::after,
+#toggle-studiprojekte-3:checked ~ .controls .checkbox-wrapper:nth-child(3)::after,
+#toggle-studiprojekte-4:checked ~ .controls .checkbox-wrapper:nth-child(4)::after {
+    content: '✓';
+    position: absolute;
+    left: 4px;
+    top: -1px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.checkbox-wrapper label {
+    cursor: pointer;
+    font-weight: 500;
+    user-select: none;
+}
+
+/* When checkbox A is checked, hide type-a items */
+#toggle-studiprojekte-1:checked ~ .grid-studiprojekte .filter-studiprojekte-1 {
+    display: flex;
+}
+
+/* When checkbox B is checked, hide type-b items */
+#toggle-studiprojekte-2:checked ~ .grid-studiprojekte .filter-studiprojekte-2 {
+    display: flex;
+}
+
+#toggle-studiprojekte-3:checked ~ .grid-studiprojekte .filter-studiprojekte-3 {
+    display: flex;
+}
+
+/* When checkbox B is checked, hide type-b items */
+#toggle-studiprojekte-4:checked ~ .grid-studiprojekte .filter-studiprojekte-4 {
+    display: flex;
+}
+

@@ -1,10 +1,10 @@
 ---
-id: finwaiid
+id: finwaiid4
 title: "Advancing Whale Research: Using Deep Learning for Efficient Identification"
 title_project: "Developing a deep learning approach for automated photo identification using vertical aerial drone imagery of fin whales (Balaenoptera physalus)"
 title_short: "FinWAIID"
 period: "Oct 24 – Mar 25 (6 months)" 
-round: "4"
+round: "2"
 lecture2go: "70597"
 uhh_url: "https://www.hcl.uni-hamburg.de/ddlitlab/data-literacy-studierendenprojekte/vierte-foerderrunde/finwaiid.html"
 students: "Alexander Nicolas Rychwalski, Kilian Huss"

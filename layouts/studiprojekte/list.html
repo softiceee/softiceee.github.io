@@ -2,16 +2,48 @@
     <main>
     {{ .Content }}
 
-    <div class="grid-studiprojekte">
+    <section>
+    <div class="section-title">
+        <h2>Studi-Projekte</h2>
+        <p>Die Projekte im Überblick</p>
+    </div>
+    
+
+    <input type="checkbox" id="toggle-studiprojekte-1" checked>
+    <input type="checkbox" id="toggle-studiprojekte-2" checked>
+    <input type="checkbox" id="toggle-studiprojekte-3" checked>
+    <input type="checkbox" id="toggle-studiprojekte-4" checked>
+    
+    <div class="controls">
+        <div class="checkbox-group">
+            <div class="checkbox-wrapper">
+                <label for="toggle-studiprojekte-1">Runde 1</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <label for="toggle-studiprojekte-2">Runde 2</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <label for="toggle-studiprojekte-3">Runde 3</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <label for="toggle-studiprojekte-4">Runde 4</label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="grid-studiprojekte" id="grid-studiprojekte">
     {{ range .Pages }}
-        <a href="{{ .Permalink }}" class="grid-item navigation-card">
+        <a href="{{ .Permalink }}" class="grid-item navigation-card filter-studiprojekte-{{ .Params.round }}">
             <div>
-                <h3>{{ .Params.id }}</h3>
+                <h3>{{ .Params.title }}</h3>
+                <p>{{ .Params.title_short }}</p>
                 <p>{{ .Params.students }}</p>
-                <p>{{ .Params.title }}</p>
             </div>
         </a>
     {{ end }}
     </div>
+    </section>
     </main>
 {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: "Studi Projekte"
+title: "Studi-Projekte"
 layout: list
 ---
 

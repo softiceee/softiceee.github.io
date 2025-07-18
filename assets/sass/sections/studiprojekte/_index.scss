@@ -37,8 +37,6 @@
     }
 }
 
-
-
 .controls {
     max-width: 1200px; 
     padding: 20px;
@@ -61,51 +59,28 @@
     gap: 4px;
 }
 
-/* Hide the actual checkboxes since they're positioned for CSS functionality */
 input[type="checkbox"] {
     display: none;
 }
 
 .checkbox-wrapper {
     position: relative;
-}
-
-/* Create custom checkbox appearance */
-.checkbox-wrapper::before {
-    content: '';
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border: 2px solid #ddd;
-    border-radius: 3px;
-    margin-right: 8px;
-    vertical-align: middle;
+    border: dashed 2px var(--black);
+    border-radius: 6px;
+    transition: all 0.5s ease;
     cursor: pointer;
-    background: white;
-    transition: all 0.2s ease;
+
+    & > label {
+        padding: 10px;
+    }
 }
 
 /* Style when checkbox is checked */
-#toggle-studiprojekte-1:checked ~ .controls .checkbox-wrapper:nth-child(1)::before,
-#toggle-studiprojekte-2:checked ~ .controls .checkbox-wrapper:nth-child(2)::before,
-#toggle-studiprojekte-3:checked ~ .controls .checkbox-wrapper:nth-child(3)::before,
-#toggle-studiprojekte-4:checked ~ .controls .checkbox-wrapper:nth-child(4)::before {
-    background: #667eea;
-    border-color: #667eea;
-}
-
-/* Add checkmark */
-#toggle-studiprojekte-1:checked ~ .controls .checkbox-wrapper:nth-child(1)::after,
-#toggle-studiprojekte-2:checked ~ .controls .checkbox-wrapper:nth-child(2)::after,
-#toggle-studiprojekte-3:checked ~ .controls .checkbox-wrapper:nth-child(3)::after,
-#toggle-studiprojekte-4:checked ~ .controls .checkbox-wrapper:nth-child(4)::after {
-    content: '✓';
-    position: absolute;
-    left: 4px;
-    top: -1px;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
+#toggle-studiprojekte-1:checked ~ .controls .checkbox-wrapper:nth-child(1),
+#toggle-studiprojekte-2:checked ~ .controls .checkbox-wrapper:nth-child(2),
+#toggle-studiprojekte-3:checked ~ .controls .checkbox-wrapper:nth-child(3),
+#toggle-studiprojekte-4:checked ~ .controls .checkbox-wrapper:nth-child(4) {
+    background: var(--primary-light);
 }
 
 .checkbox-wrapper label {
@@ -114,22 +89,9 @@ input[type="checkbox"] {
     user-select: none;
 }
 
-
-/* When checkbox A is checked, hide type-a items */
-#toggle-studiprojekte-1:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-1 {
-    display: none;
-}
-
-/* When checkbox B is checked, hide type-b items */
-#toggle-studiprojekte-2:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-2 {
-    display: none;
-}
-
-#toggle-studiprojekte-3:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-3 {
-    display: none;
-}
-
-/* When checkbox B is checked, hide type-b items */
+#toggle-studiprojekte-1:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-1,
+#toggle-studiprojekte-2:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-2,
+#toggle-studiprojekte-3:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-3,
 #toggle-studiprojekte-4:not(:checked) ~ .grid-studiprojekte .filter-studiprojekte-4 {
     display: none;
 }

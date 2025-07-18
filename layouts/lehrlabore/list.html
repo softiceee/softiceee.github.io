@@ -1,0 +1,42 @@
+{{ define "main" }}
+    <main>
+    {{ .Content }}
+
+    <section>
+    <div class="section-title">
+        <h2>Lehrlabore</h2>
+        <p>Die Projekte im Überblick</p>
+    </div>
+    
+    <input type="checkbox" id="toggle-lehrlabore-1" checked>
+    <input type="checkbox" id="toggle-lehrlabore-2" checked>
+    <input type="checkbox" id="toggle-lehrlabore-3" checked>
+    
+    <div class="controls">
+        <div class="checkbox-group">
+            <div class="checkbox-wrapper">
+                <label for="toggle-lehrlabore-1">Runde 1</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <label for="toggle-lehrlabore-2">Runde 2</label>
+            </div>
+            <div class="checkbox-wrapper">
+                <label for="toggle-lehrlabore-3">Runde 3</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-lehrlabore" id="grid-lehrlabore">
+    {{ range .Pages }}
+        <a href="{{ .Permalink }}" class="grid-item navigation-card filter-lehrlabore-{{ .Params.round }}">
+            <div>
+                <h3>{{ .Params.title }}</h3>
+                <p>{{ .Params.title_short }}</p>
+                <p>{{ .Params.lecturer }}</p>
+            </div>
+        </a>
+    {{ end }}
+    </div>
+    </section>
+    </main>
+{{ end }}
